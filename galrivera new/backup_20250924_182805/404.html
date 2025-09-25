@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found | GALRIVIERA VTC Premium</title>
+    <meta name="description" content="Page not found. Return to GALRIVIERA VTC - Premium transfer service on the French Riviera with team of Israeli drivers.">
+    <meta name="robots" content="noindex, follow">
+    <meta http-equiv="refresh" content="10; url=/">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="404 - Page Not Found - GALRIVIERA">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://galriviera.ecofundrive.com/404.html">
+    
+    <!-- GA4 MANDATORY -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7E44TJX635"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-7E44TJX635');
+        // Track 404 error
+        gtag('event', 'page_view', {
+            page_title: '404 Error',
+            page_location: window.location.href,
+            page_path: '/404.html'
+        });
+    </script>
+    
+    <style>
+        :root {
+            --noir-premium: #0A0A0A;
+            --noir-soft: #1a1a1a;
+            --or-luxe: #D4AF37;
+            --or-light: #F4E4BC;
+            --argent: #C0C0C0;
+            --blanc: #FFFFFF;
+            --whatsapp: #25D366;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            background: var(--noir-premium);
+            color: var(--blanc);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        /* Animated Background */
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 20% 50%, rgba(212, 175, 55, 0.1) 0%, transparent 50%);
+            animation: float 15s ease-in-out infinite;
+        }
+        
+        body::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 80% 80%, rgba(212, 175, 55, 0.05) 0%, transparent 50%);
+            animation: float 20s ease-in-out infinite reverse;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0) scale(1); }
+            50% { transform: translateY(-30px) scale(1.1); }
+        }
+        
+        /* Container */
+        .error-container {
+            text-align: center;
+            z-index: 1;
+            max-width: 600px;
+            width: 100%;
+            animation: fadeIn 0.8s ease-out;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* 404 Number */
+        .error-code {
+            font-size: clamp(80px, 15vw, 150px);
+            font-weight: 300;
+            background: linear-gradient(135deg, var(--or-luxe), var(--or-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 20px;
+            letter-spacing: 10px;
+            animation: pulse 3s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+        
+        /* Error Title */
+        .error-title {
+            font-size: clamp(24px, 4vw, 36px);
+            color: var(--or-light);
+            margin-bottom: 20px;
+            font-weight: 400;
+        }
+        
+        /* Error Message */
+        .error-message {
+            font-size: clamp(16px, 2.5vw, 18px);
+            color: var(--argent);
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+        
+        /* Language Options */
+        .language-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .lang-card {
+            background: linear-gradient(135deg, var(--noir-soft), var(--noir-premium));
+            border: 1px solid var(--or-luxe);
+            border-radius: 10px;
+            padding: 20px;
+            text-decoration: none;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .lang-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(212, 175, 55, 0.1) 0%, transparent 70%);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        
+        .lang-card:hover::before {
+            opacity: 1;
+        }
+        
+        .lang-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(212, 175, 55, 0.2);
+            border-color: var(--or-light);
+        }
+        
+        .lang-flag {
+            font-size: 48px;
+            margin-bottom: 10px;
+            display: block;
+        }
+        
+        .lang-name {
+            color: var(--or-luxe);
+            font-size: 16px;
+            font-weight: 500;
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        .lang-desc {
+            color: var(--argent);
+            font-size: 14px;
+            display: block;
+        }
+        
+        /* Quick Links */
+        .quick-links {
+            margin: 40px 0;
+            padding: 30px;
+            background: linear-gradient(135deg, var(--noir-soft), var(--noir-premium));
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            border-radius: 15px;
+        }
+        
+        .quick-links h3 {
+            color: var(--or-luxe);
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+        
+        .links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+        }
+        
+        .quick-link {
+            color: var(--argent);
+            text-decoration: none;
+            padding: 10px;
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            border-radius: 8px;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        
+        .quick-link:hover {
+            background: rgba(212, 175, 55, 0.1);
+            color: var(--or-light);
+            transform: translateX(5px);
+        }
+        
+        /* WhatsApp CTA */
+        .whatsapp-cta {
+            background: var(--whatsapp);
+            color: var(--blanc);
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.3s;
+            margin: 20px 0;
+            box-shadow: 0 10px 30px rgba(37, 211, 102, 0.3);
+        }
+        
+        .whatsapp-cta:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 40px rgba(37, 211, 102, 0.4);
+        }
+        
+        /* Auto redirect message */
+        .redirect-message {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: var(--argent);
+            font-size: 14px;
+            opacity: 0.8;
+        }
+        
+        .countdown {
+            color: var(--or-luxe);
+            font-weight: bold;
+        }
+        
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .language-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .quick-link {
+                font-size: 14px;
+            }
+            
+            .error-code {
+                letter-spacing: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <!-- 404 Display -->
+        <div class="error-code">404</div>
+        <h1 class="error-title">Page Not Found</h1>
+        <p class="error-message">
+            The page you're looking for doesn't exist or has been moved.<br>
+            Let us guide you back to our premium VTC services.
+        </p>
+        
+        <!-- Language Selection -->
+        <div class="language-grid">
+            <a href="/he/" class="lang-card">
+                <span class="lang-flag">🇮🇱</span>
+                <span class="lang-name">עברית</span>
+                <span class="lang-desc">דף הבית</span>
+            </a>
+            
+            <a href="/en/" class="lang-card">
+                <span class="lang-flag">🇬🇧</span>
+                <span class="lang-name">English</span>
+                <span class="lang-desc">Homepage</span>
+            </a>
+            
+            <a href="/fr/" class="lang-card">
+                <span class="lang-flag">🇫🇷</span>
+                <span class="lang-name">Français</span>
+                <span class="lang-desc">Accueil</span>
+            </a>
+        </div>
+        
+        <!-- Quick Links -->
+        <div class="quick-links">
+            <h3>🔗 Quick Access to Our Services</h3>
+            <div class="links-grid">
+                <a href="/en/airport-transfer.html" class="quick-link">
+                    <span>✈️</span>
+                    <span>Airport Transfer</span>
+                </a>
+                <a href="/en/services.html" class="quick-link">
+                    <span>🚗</span>
+                    <span>VTC Services</span>
+                </a>
+                <a href="/en/nice-monaco.html" class="quick-link">
+                    <span>👑</span>
+                    <span>Nice-Monaco</span>
+                </a>
+                <a href="/en/nice-cannes.html" class="quick-link">
+                    <span>🎬</span>
+                    <span>Nice-Cannes</span>
+                </a>
+                <a href="/en/israeli-guide.html" class="quick-link">
+                    <span>🇮🇱</span>
+                    <span>Israeli Guide</span>
+                </a>
+                <a href="/en/contact.html" class="quick-link">
+                    <span>📞</span>
+                    <span>Contact</span>
+                </a>
+            </div>
+        </div>
+        
+        <!-- WhatsApp CTA -->
+        <a href="https://wa.me/33682267342?text=Hello,%20I%20need%20help%20finding%20a%20page%20on%20your%20site" class="whatsapp-cta">
+            <span>💬</span>
+            <span>Contact Us on WhatsApp</span>
+        </a>
+    </div>
+    
+    <!-- Auto redirect message -->
+    <div class="redirect-message">
+        Redirecting to homepage in <span class="countdown" id="countdown">10</span> seconds...
+    </div>
+    
+    <script>
+        // Countdown timer
+        let seconds = 10;
+        const countdownElement = document.getElementById('countdown');
+        
+        const timer = setInterval(() => {
+            seconds--;
+            countdownElement.textContent = seconds;
+            
+            if (seconds <= 0) {
+                clearInterval(timer);
+                // Detect user language and redirect
+                const userLang = navigator.language || navigator.userLanguage;
+                
+                if (userLang.includes('he')) {
+                    window.location.href = '/he/';
+                } else if (userLang.includes('fr')) {
+                    window.location.href = '/fr/';
+                } else {
+                    window.location.href = '/en/';
+                }
+            }
+        }, 1000);
+        
+        // Track 404 error details
+        if (typeof gtag !== 'undefined') {
+            gtag('event', '404_error', {
+                'event_category': 'Error',
+                'event_label': document.referrer || 'Direct',
+                'value': window.location.pathname
+            });
+        }
+    </script>
+</body>
+</html>

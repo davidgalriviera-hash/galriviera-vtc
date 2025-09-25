@@ -1,0 +1,1369 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALRIVIERA - Team of Israeli Drivers French Riviera | Premium VTC Service</title>
+    <meta name="description" content="Premium VTC service with team of Israeli drivers. Multilingual service covering 5 languages, a driver speaking your language will be assigned. 5-minute WhatsApp quote.">
+    <meta name="keywords" content="Israeli drivers team, French Riviera, VTC Nice, private driver Monaco, airport transfer, multilingual service, long distance transfer Europe">
+    
+    <!-- Canonical and Alternates -->
+    <link rel="canonical" href="https://galriviera.ecofundrive.com/en/">
+    <link rel="alternate" hreflang="he" href="https://galriviera.ecofundrive.com/he/">
+    <link rel="alternate" hreflang="en" href="https://galriviera.ecofundrive.com/en/">
+    <link rel="alternate" hreflang="fr" href="https://galriviera.ecofundrive.com/fr/">
+    <link rel="alternate" hreflang="x-default" href="https://galriviera.ecofundrive.com/en/">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="GALRIVIERA - Our Team of Israeli Drivers on the French Riviera">
+    <meta property="og:description" content="Premium VTC transfer service with multilingual team in Nice, Monaco and the entire Riviera">
+    <meta property="og:url" content="https://galriviera.ecofundrive.com/en/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- GA4 MANDATORY -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7E44TJX635"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-7E44TJX635');
+    </script>
+    
+    <style>
+        :root {
+            --noir-premium: #0A0A0A;
+            --noir-soft: #1a1a1a;
+            --or-luxe: #D4AF37;
+            --or-light: #F4E4BC;
+            --argent: #C0C0C0;
+            --blanc: #FFFFFF;
+            --whatsapp: #25D366;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            background: var(--noir-premium);
+            color: var(--blanc);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--noir-premium) 0%, var(--noir-soft) 100%);
+            padding: 20px 0;
+            border-bottom: 1px solid var(--or-luxe);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .logo {
+            font-size: clamp(24px, 4vw, 32px);
+            font-weight: 300;
+            letter-spacing: 3px;
+            background: linear-gradient(135deg, var(--or-luxe), var(--or-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-decoration: none;
+        }
+        
+        .nav-menu {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .nav-menu a {
+            color: var(--argent);
+            text-decoration: none;
+            transition: color 0.3s;
+            font-size: 15px;
+        }
+        
+        .nav-menu a:hover {
+            color: var(--or-luxe);
+        }
+        
+        .language-selector {
+            display: flex;
+            gap: 10px;
+            margin-left: 20px;
+        }
+        
+        .lang-btn {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: 1px solid var(--or-luxe);
+        }
+        
+        .lang-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
+        }
+        
+        .lang-btn.active {
+            background: var(--or-luxe);
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.6);
+        }
+        
+        .header-cta {
+            background: var(--whatsapp);
+            color: var(--blanc);
+            padding: 8px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.3s;
+            margin-left: 20px;
+        }
+        
+        .header-cta:hover {
+            transform: scale(1.05);
+        }
+        
+        /* Hero Section with animated gradient */
+        .hero {
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, var(--noir-premium), var(--noir-soft));
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 20% 50%, rgba(212, 175, 55, 0.1) 0%, transparent 50%);
+            animation: float 15s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0) scale(1); }
+            50% { transform: translateY(-20px) scale(1.05); }
+        }
+        
+        .hero-content {
+            text-align: center;
+            max-width: 900px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .hero h1 {
+            font-size: clamp(36px, 6vw, 64px);
+            margin-bottom: 20px;
+            font-weight: 300;
+            line-height: 1.2;
+            background: linear-gradient(135deg, var(--or-luxe), var(--or-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: fadeInUp 0.8s ease-out;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .hero-subtitle {
+            font-size: clamp(18px, 3vw, 24px);
+            color: var(--argent);
+            margin-bottom: 40px;
+            animation: fadeInUp 0.8s ease-out 0.2s both;
+        }
+        
+        .hero-subtitle a {
+            color: var(--or-light);
+            text-decoration: none;
+        }
+        
+        .hero-subtitle a:hover {
+            text-decoration: underline;
+        }
+        
+        .cta-primary {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--whatsapp);
+            color: var(--blanc);
+            padding: 18px 40px;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: all 0.3s;
+            animation: fadeInUp 0.8s ease-out 0.4s both;
+            box-shadow: 0 10px 30px rgba(37, 211, 102, 0.3);
+        }
+        
+        .cta-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(37, 211, 102, 0.4);
+        }
+        
+        /* Services Cards */
+        .services {
+            padding: 80px 20px;
+            background: var(--noir-premium);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: clamp(32px, 4vw, 48px);
+            margin-bottom: 60px;
+            font-weight: 300;
+            background: linear-gradient(135deg, var(--or-luxe), var(--or-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            align-items: stretch;
+        }
+        
+        .service-card {
+            background: linear-gradient(135deg, var(--noir-soft), var(--noir-premium));
+            border: 1px solid var(--or-luxe);
+            border-radius: 10px;
+            padding: 40px 30px;
+            text-align: center;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 320px;
+        }
+        
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(212, 175, 55, 0.1) 0%, transparent 70%);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        
+        .service-card:hover::before {
+            opacity: 1;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+            border-color: var(--or-light);
+            box-shadow: 0 20px 40px rgba(212, 175, 55, 0.2);
+        }
+        
+        .service-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .service-title a {
+            font-size: 24px;
+            color: var(--or-luxe);
+            text-decoration: none;
+            font-weight: 400;
+        }
+        
+        .service-desc {
+            color: var(--argent);
+            line-height: 1.8;
+            margin: 15px 0;
+            flex-grow: 1;
+        }
+        
+        .service-desc a {
+            color: var(--or-light);
+            text-decoration: none;
+        }
+        
+        .service-desc a:hover {
+            text-decoration: underline;
+        }
+        
+        .service-cta {
+            color: var(--or-luxe);
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+            margin-top: auto;
+        }
+        
+        .service-cta:hover {
+            color: var(--or-light);
+        }
+        
+        /* Why Us Section */
+        .why-us {
+            padding: 80px 20px;
+            background: linear-gradient(135deg, var(--noir-soft) 0%, var(--noir-premium) 100%);
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+            align-items: stretch;
+        }
+        
+        .feature-item {
+            text-align: center;
+            padding: 35px 20px;
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            border-radius: 8px;
+            background: rgba(26, 26, 26, 0.5);
+            transition: all 0.3s;
+            min-height: 160px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .feature-item:hover {
+            border-color: var(--or-luxe);
+            transform: translateY(-5px);
+            background: rgba(26, 26, 26, 0.8);
+            box-shadow: 0 10px 30px rgba(212, 175, 55, 0.15);
+        }
+        
+        .feature-icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+            color: var(--or-luxe);
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .feature-title {
+            font-size: 20px;
+            color: var(--or-light);
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+        
+        .feature-text {
+            color: var(--argent);
+            font-size: 16px;
+            line-height: 1.4;
+        }
+        
+        /* Service Area */
+        .service-area {
+            padding: 80px 20px;
+            background: var(--noir-premium);
+        }
+        
+        .area-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 25px;
+            margin-top: 50px;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .area-item {
+            text-align: center;
+            padding: 35px 20px;
+            border: 2px solid rgba(212, 175, 55, 0.3);
+            border-radius: 12px;
+            background: linear-gradient(135deg, rgba(26, 26, 26, 0.5), transparent);
+            transition: all 0.3s ease;
+            min-height: 120px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .area-item:hover {
+            border-color: var(--or-luxe);
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.15), transparent);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(212, 175, 55, 0.2);
+        }
+        
+        .area-item a {
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+        
+        .area-name {
+            font-size: 19px;
+            color: var(--or-light);
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+        
+        .area-desc {
+            font-size: 14px;
+            color: var(--argent);
+            opacity: 0.9;
+        }
+        
+        /* Booking Process */
+        .booking-process {
+            padding: 80px 20px;
+            background: linear-gradient(135deg, var(--noir-soft) 0%, var(--noir-premium) 100%);
+        }
+        
+        .process-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 50px 0;
+            align-items: stretch;
+        }
+        
+        .step {
+            text-align: center;
+            position: relative;
+            padding: 40px 20px;
+            background: rgba(26, 26, 26, 0.3);
+            border-radius: 8px;
+            border: 1px solid rgba(212, 175, 55, 0.1);
+            transition: all 0.3s;
+            min-height: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .step:hover {
+            transform: translateY(-5px);
+            border-color: var(--or-luxe);
+            background: rgba(26, 26, 26, 0.5);
+        }
+        
+        .step-number {
+            width: 60px;
+            height: 60px;
+            margin: 0 auto 20px;
+            background: linear-gradient(135deg, var(--or-luxe), var(--or-light));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--noir-premium);
+        }
+        
+        .step-title {
+            font-size: 20px;
+            color: var(--or-light);
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+        
+        .step-desc {
+            color: var(--argent);
+            line-height: 1.6;
+        }
+        
+        .step-desc a {
+            color: var(--or-luxe);
+            text-decoration: none;
+        }
+        
+        .step-desc a:hover {
+            text-decoration: underline;
+        }
+        
+        /* FAQ Section */
+        .faq-section {
+            padding: 80px 20px;
+            background: var(--noir-premium);
+        }
+        
+        .faq-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+            align-items: start;
+        }
+        
+        .faq-item {
+            background: linear-gradient(135deg, var(--noir-soft), var(--noir-premium));
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            border-radius: 8px;
+            padding: 25px;
+            transition: all 0.3s;
+            min-height: 150px;
+        }
+        
+        .faq-item:hover {
+            border-color: var(--or-luxe);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(212, 175, 55, 0.15);
+        }
+        
+        .faq-question {
+            color: var(--or-luxe);
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 15px;
+            line-height: 1.4;
+        }
+        
+        .faq-answer {
+            color: var(--argent);
+            line-height: 1.8;
+        }
+        
+        .faq-answer a {
+            color: var(--or-light);
+            text-decoration: none;
+        }
+        
+        .faq-answer a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Popular Pages */
+        .popular-pages {
+            padding: 60px 20px;
+            background: linear-gradient(135deg, var(--noir-soft) 0%, var(--noir-premium) 100%);
+        }
+        
+        .pages-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .page-link {
+            background: var(--noir-premium);
+            border: 2px solid var(--or-luxe);
+            border-radius: 12px;
+            padding: 35px 25px;
+            text-align: center;
+            text-decoration: none;
+            color: var(--blanc);
+            transition: all 0.3s ease;
+            display: block;
+            min-height: 150px;
+            position: relative;
+        }
+        
+        .page-link:hover {
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.1), transparent);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(212, 175, 55, 0.25);
+        }
+        
+        .page-icon {
+            font-size: 42px;
+            display: block;
+            margin-bottom: 15px;
+            text-align: center;
+            line-height: 1;
+        }
+        
+        .page-title {
+            color: var(--or-light);
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 1.4;
+            display: block;
+            text-align: center;
+        }
+        
+        /* Footer */
+        footer {
+            background: var(--noir-premium);
+            padding: 40px 20px 20px;
+            border-top: 2px solid var(--or-luxe);
+        }
+        
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 30px;
+        }
+        
+        .footer-section h4 {
+            color: var(--or-luxe);
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+        
+        .footer-section ul {
+            list-style: none;
+        }
+        
+        .footer-section li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-section a {
+            color: var(--argent);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-section a:hover {
+            color: var(--or-light);
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid #333;
+            color: var(--argent);
+        }
+        
+        .footer-credits {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+        
+        .footer-credits a {
+            color: var(--or-luxe);
+            text-decoration: none;
+        }
+        
+        /* WhatsApp Float */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: var(--whatsapp);
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 30px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+            z-index: 1000;
+            transition: all 0.3s;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            animation: none;
+            box-shadow: 0 6px 30px rgba(37, 211, 102, 0.4);
+        }
+        
+        /* Cookie Banner */
+        #cookie-banner {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--noir-soft);
+            color: var(--blanc);
+            padding: 15px;
+            text-align: center;
+            font-size: 14px;
+            z-index: 9999;
+            border-top: 1px solid var(--or-luxe);
+            display: none;
+        }
+        
+        #cookie-banner button {
+            background: var(--or-luxe);
+            color: var(--noir-premium);
+            border: none;
+            padding: 8px 20px;
+            margin: 0 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        
+        #cookie-banner button:hover {
+            background: var(--or-light);
+        }
+        
+        #cookie-banner a {
+            color: var(--or-luxe);
+            text-decoration: none;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .nav-menu {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .faq-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .pages-grid {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            }
+            
+            .area-grid {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            }
+            
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .process-steps {
+                grid-template-columns: 1fr;
+            }
+            
+            .whatsapp-float {
+                bottom: 20px;
+                right: 20px;
+                width: 55px;
+                height: 55px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .pages-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .area-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="/en/" class="logo">GALRIVIERA</a>
+            
+            <div class="nav-menu">
+                <a href="/en/">Home</a>
+                <a href="/en/services.html">Services</a>
+                <a href="/en/airport-transfer.html">Airport Transfer</a>
+                <a href="/en/nice-monaco.html">Nice-Monaco</a>
+                <a href="/en/nice-cannes.html">Nice-Cannes</a>
+                <a href="/en/israeli-guide.html">Israeli Guide</a>
+                <a href="/en/contact.html">Contact</a>
+                
+                <div class="language-selector">
+                    <a href="/he/" class="lang-btn" title="עברית">🇮🇱</a>
+                    <a href="/en/" class="lang-btn active" title="English">🇬🇧</a>
+                    <a href="/fr/" class="lang-btn" title="Français">🇫🇷</a>
+                </div>
+                
+                <a href="https://wa.me/33682267342?text=Hello,%20I'd%20like%20information%20about%20your%20services" class="header-cta">
+                    💬 WhatsApp
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Our Team of Israeli Drivers on the French Riviera</h1>
+            <p class="hero-subtitle">Premium <a href="/en/services.html">VTC service</a> with multilingual service available. Our team covers 5 languages - a driver speaking your language will be assigned for your comfort in <a href="/en/nice-monaco.html">Nice, Monaco</a>, <a href="/en/nice-cannes.html">Cannes</a> and throughout the French Riviera</p>
+            <a href="https://wa.me/33682267342?text=Hello,%20I'd%20like%20information%20about%20your%20transfer%20services" class="cta-primary">
+                <span>💬</span>
+                <span>Get a Quote on WhatsApp</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">✈️</div>
+                    <h3 class="service-title"><a href="/en/airport-transfer.html">Airport Transfers</a></h3>
+                    <p class="service-desc">Professional <a href="/en/airport-transfer.html">meet & greet service from Nice Côte d'Azur Airport</a>. Our team provides service adapted to your language. Flight tracking, free waiting time.</p>
+                    <a href="https://wa.me/33682267342?text=Hello,%20interested%20in%20airport%20transfer" class="service-cta">Book your transfer →</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🗺️</div>
+                    <h3 class="service-title"><a href="/en/services.html#tours">Tourist Tours</a></h3>
+                    <p class="service-desc">Discover the French Riviera with our <a href="/en/israeli-guide.html">experienced drivers</a>. A driver speaking your language available. Tours to <a href="/en/nice-monaco.html">Monaco</a>, <a href="/en/nice-cannes.html">Cannes</a> and more.</p>
+                    <a href="https://wa.me/33682267342?text=Hello,%20interested%20in%20tourist%20tours" class="service-cta">Explore our tours →</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🎉</div>
+                    <h3 class="service-title"><a href="/en/services.html#events">Events & Driver Service</a></h3>
+                    <p class="service-desc">Dedicated driver for <a href="/en/services.html#events">events, festivals, weddings</a>. Multilingual service according to your needs. Available full or half day throughout the Riviera.</p>
+                    <a href="https://wa.me/33682267342?text=Hello,%20interested%20in%20driver%20service" class="service-cta">Book your driver →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section class="why-us">
+        <div class="container">
+            <h2 class="section-title">Why Choose GALRIVIERA?</h2>
+            
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">🌍</div>
+                    <div class="feature-title">Multilingual Service</div>
+                    <div class="feature-text">Our team covers 5 languages - Driver adapted to your needs</div>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon">⚡</div>
+                    <div class="feature-title">5-Minute Quote</div>
+                    <div class="feature-text">Fast response and personalized rate via WhatsApp</div>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon">❌</div>
+                    <div class="feature-title">Free Cancellation</div>
+                    <div class="feature-text">Up to 2 hours before the trip</div>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon">🚗</div>
+                    <div class="feature-title">Vehicles 1-8 Seats</div>
+                    <div class="feature-text">Fleet adapted to any group size</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Area -->
+    <section class="service-area">
+        <div class="container">
+            <h2 class="section-title">Our Service Area</h2>
+            
+            <div class="area-grid">
+                <div class="area-item">
+                    <a href="/en/services.html#nice">
+                        <div class="area-name">Nice</div>
+                        <div class="area-desc">Capital of the Riviera</div>
+                    </a>
+                </div>
+                
+                <div class="area-item">
+                    <a href="/en/nice-monaco.html">
+                        <div class="area-name">Monaco</div>
+                        <div class="area-desc">Prestigious Principality</div>
+                    </a>
+                </div>
+                
+                <div class="area-item">
+                    <a href="/en/nice-cannes.html">
+                        <div class="area-name">Cannes</div>
+                        <div class="area-desc">Festival City</div>
+                    </a>
+                </div>
+                
+                <div class="area-item">
+                    <a href="/en/services.html#antibes">
+                        <div class="area-name">Antibes</div>
+                        <div class="area-desc">Historic Pearl</div>
+                    </a>
+                </div>
+                
+                <div class="area-item">
+                    <a href="/en/services.html#saint-tropez">
+                        <div class="area-name">Saint-Tropez</div>
+                        <div class="area-desc">Mythical Village</div>
+                    </a>
+                </div>
+                
+                <div class="area-item">
+                    <a href="/en/services.html#marseille">
+                        <div class="area-name">Marseille</div>
+                        <div class="area-desc">Ancient Port</div>
+                    </a>
+                </div>
+                
+                <div class="area-item">
+                    <a href="/en/services.html#long-distance">
+                        <div class="area-name">Long Distance</div>
+                        <div class="area-desc">All France & Europe</div>
+                    </a>
+                </div>
+                
+                <div class="area-item">
+                    <a href="/en/services.html#menton">
+                        <div class="area-name">Menton</div>
+                        <div class="area-desc">Pearl of France</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Process -->
+    <section class="booking-process">
+        <div class="container">
+            <h2 class="section-title">How to Book?</h2>
+            
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-title">Send a Message</div>
+                    <div class="step-desc">Contact our team on <a href="https://wa.me/33682267342?text=Hello,%20I%20need%20a%20transfer">WhatsApp</a> with your trip details</div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-title">Receive Your Quote</div>
+                    <div class="step-desc">In 5 minutes, get your <a href="/en/services.html#pricing">personalized rate</a></div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-title">Confirm and Relax</div>
+                    <div class="step-desc">Confirm via <a href="https://wa.me/33682267342?text=I%20confirm%20my%20booking">WhatsApp</a> and your driver will be on time</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3 class="faq-question">How much does a transfer cost?</h3>
+                    <p class="faq-answer">We offer <a href="/en/services.html#pricing">personalized quotes in 5 minutes</a> via WhatsApp. Rates depend on distance and specific needs. <a href="https://wa.me/33682267342?text=I'd%20like%20a%20quote">Contact us for your quote</a>.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">Does your team speak Hebrew?</h3>
+                    <p class="faq-answer">Yes, we have Hebrew-speaking drivers. Our team covers 5 languages to meet all needs. A driver speaking your language will be assigned to you.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">What languages can I communicate in?</h3>
+                    <p class="faq-answer">Our team speaks Hebrew, English, French, Spanish and Russian. A driver speaking your language will be assigned according to your preferences. Check our <a href="/en/israeli-guide.html">guide for Israelis</a>.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">How do I book a trip?</h3>
+                    <p class="faq-answer">Booking is simple via <a href="https://wa.me/33682267342">WhatsApp at +33 6 82 26 73 42</a>. Send your details and receive your quote in 5 minutes!</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">Service areas?</h3>
+                    <p class="faq-answer">French Riviera including <a href="/en/nice-monaco.html">Nice, Monaco</a>, <a href="/en/nice-cannes.html">Cannes</a>, plus <a href="/en/services.html#long-distance">long distance transfers France/Europe</a>.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">Cancellation possible?</h3>
+                    <p class="faq-answer">Yes, cancellation is free up to 2 hours before the scheduled time. See our <a href="/en/contact.html#conditions">full conditions</a>.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">Do you offer long distance transfers?</h3>
+                    <p class="faq-answer">Yes! Our team provides <a href="/en/services.html#long-distance">transfers to Paris, Lyon, all France and Europe</a>. Multilingual service available for all long distance trips.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">Available vehicles?</h3>
+                    <p class="faq-answer">Our <a href="/en/services.html#vehicles">comfortable fleet</a> includes vehicles from 1 to 8 seats according to your needs and group size.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">Payment methods?</h3>
+                    <p class="faq-answer">Credit card, cash, PayPal, bank transfer. Details on our <a href="/en/contact.html#payment">contact page</a>.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">Urgent booking possible?</h3>
+                    <p class="faq-answer">Minimum 4 hours in advance. For emergencies, <a href="https://wa.me/33682267342?text=URGENT:%20I%20need%20immediate%20transfer">contact us directly on WhatsApp</a>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Pages -->
+    <section class="popular-pages">
+        <div class="container">
+            <h2 class="section-title">Most Visited Pages</h2>
+            
+            <div class="pages-grid">
+                <a href="/en/airport-transfer.html" class="page-link">
+                    <div class="page-icon">✈️</div>
+                    <div class="page-title">Nice Airport Transfer</div>
+                </a>
+                
+                <a href="/en/nice-monaco.html" class="page-link">
+                    <div class="page-icon">👑</div>
+                    <div class="page-title">Nice-Monaco Tour</div>
+                </a>
+                
+                <a href="/en/nice-cannes.html" class="page-link">
+                    <div class="page-icon">🎬</div>
+                    <div class="page-title">Nice-Cannes Route</div>
+                </a>
+                
+                <a href="/en/israeli-guide.html" class="page-link">
+                    <div class="page-icon">🇮🇱</div>
+                    <div class="page-title">Guide for Israelis</div>
+                </a>
+                
+                <a href="/en/services.html" class="page-link">
+                    <div class="page-icon">🚗</div>
+                    <div class="page-title">All Our Services</div>
+                </a>
+                
+                <a href="/en/contact.html" class="page-link">
+                    <div class="page-icon">📞</div>
+                    <div class="page-title">Contact & Booking</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="/en/airport-transfer.html">Airport Transfers</a></li>
+                    <li><a href="/en/services.html#tours">Tourist Tours</a></li>
+                    <li><a href="/en/services.html#driver">Driver Service</a></li>
+                    <li><a href="/en/services.html#events">Events</a></li>
+                    <li><a href="/en/services.html">View All Services</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Destinations</h4>
+                <ul>
+                    <li><a href="/en/services.html#nice">Nice</a></li>
+                    <li><a href="/en/nice-monaco.html">Monaco</a></li>
+                    <li><a href="/en/nice-cannes.html">Cannes</a></li>
+                    <li><a href="/en/services.html#antibes">Antibes</a></li>
+                    <li><a href="/en/services.html#saint-tropez">Saint-Tropez</a></li>
+                    <li><a href="/en/services.html#marseille">Marseille</a></li>
+                    <li><a href="/en/services.html#menton">Menton</a></li>
+                    <li><a href="/en/services.html#long-distance">Long Distance</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Information</h4>
+                <ul>
+                    <li><a href="/en/">About Us</a></li>
+                    <li><a href="/en/israeli-guide.html">Israeli Guide</a></li>
+                    <li><a href="/en/contact.html">Contact</a></li>
+                    <li><a href="https://wa.me/33682267342">Book Now</a></li>
+                    <li><a href="#faq-section">FAQ</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Legal Information</h4>
+                <ul>
+                    <li>ABSIG CONSULTING SASU</li>
+                    <li>120 Route des Macarons</li>
+                    <li>06560 Valbonne, France</li>
+                    <li>📱 +33 6 82 26 73 42</li>
+                    <li>✉️ absig2consulting@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>© 2025 GALRIVIERA - ABSIG CONSULTING SASU - All Rights Reserved</p>
+            <div class="footer-credits">
+                🤝 Official Partner of <a href="https://ecofundrive.com" rel="partner">EcoFundrive.com</a>
+                • ✨ Designed and Developed by <a href="https://misterprompt.fr" rel="author">MisterPrompt.fr</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/33682267342?text=Hello,%20I'm%20interested%20in%20your%20transfer%20services" class="whatsapp-float" aria-label="WhatsApp">
+        💬
+    </a>
+
+    <!-- Cookie Banner -->
+    <div id="cookie-banner">
+        This site uses cookies to improve your browsing experience
+        <button onclick="acceptCookies()">Accept</button>
+        <a href="/en/privacy.html">Learn more</a>
+    </div>
+
+    <!-- Schema.org V6.1 Compliant -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": ["TransportationService", "LocalBusiness"],
+        "name": "GALRIVIERA VTC",
+        "alternateName": "GALRIVIERA Private Driver Service",
+        "description": "Premium VTC service with team of Israeli drivers. Multilingual service available in 5 languages",
+        "url": "https://galriviera.ecofundrive.com/en/",
+        "telephone": "+33682267342",
+        "email": "absig2consulting@gmail.com",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "120 Route des Macarons",
+            "addressLocality": "Valbonne",
+            "postalCode": "06560",
+            "addressCountry": "FR"
+        },
+        "areaServed": [
+            "Nice", "Monaco", "Cannes", "Antibes", "Saint-Tropez", 
+            "Menton", "Marseille", "Aix-en-Provence", "Lyon", "Paris", "Europe"
+        ],
+        "availableLanguage": ["Hebrew", "English", "French", "Spanish", "Russian"],
+        "priceRange": "Personalized Quote",
+        "paymentAccepted": ["Cash", "Credit Card", "PayPal", "Bank Transfer"],
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "opens": "00:00",
+            "closes": "23:59"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "127"
+        },
+        "partner": {
+            "@type": "Organization",
+            "name": "EcoFundrive",
+            "url": "https://ecofundrive.com"
+        },
+        "creator": {
+            "@type": "Organization",
+            "name": "MisterPrompt",
+            "url": "https://misterprompt.fr"
+        },
+        "potentialAction": {
+            "@type": "ReserveAction",
+            "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://wa.me/33682267342",
+                "inLanguage": ["en", "fr", "he"],
+                "actionPlatform": ["http://schema.org/DesktopWebPlatform", "http://schema.org/MobileWebPlatform"]
+            },
+            "result": {
+                "@type": "Reservation",
+                "name": "VTC Transfer Booking"
+            }
+        }
+    }
+    </script>
+    
+    <!-- FAQ Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "How much does a transfer cost?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We offer personalized quotes in 5 minutes via WhatsApp. Rates depend on distance, number of passengers and specific needs. Contact us for your custom quote."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Does your team speak Hebrew?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, we have Hebrew-speaking drivers. Our team covers 5 languages to meet all needs. A driver speaking your language will be assigned to you."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What languages can I communicate in?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Our team speaks Hebrew, English, French, Spanish and Russian. A driver speaking your language will be assigned according to your preferences."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How do I book a trip?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Booking is simple via WhatsApp at +33 6 82 26 73 42. Send your details, receive your quote in 5 minutes, confirm and you're all set!"
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Do you offer airport transfers?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Absolutely! Our Nice airport transfer service includes flight tracking and free waiting in case of delay. We serve all Riviera destinations."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What areas do you cover?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We serve the entire French Riviera including Nice, Monaco, Cannes, Antibes, Saint-Tropez, Marseille and we also offer long distance transfers throughout France and Europe."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Do you offer long distance transfers?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, we offer transfers to Paris, Lyon, all France and Europe. Multilingual service available for all long distance trips."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What vehicles are available?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Our fleet includes comfortable vehicles from 1 to 8 seats, suitable for all group sizes and luggage needs."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What payment methods do you accept?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We accept credit card, cash, PayPal and bank transfer for your convenience."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Urgent booking possible?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Minimum 4 hours in advance. For emergencies, contact us directly on WhatsApp and we will do our best to accommodate you."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <script>
+        // Cookie Banner
+        if (!localStorage.getItem('cookiesAccepted')) {
+            document.getElementById('cookie-banner').style.display = 'block';
+        }
+        
+        function acceptCookies() {
+            localStorage.setItem('cookiesAccepted', 'true');
+            document.getElementById('cookie-banner').style.display = 'none';
+            
+            // Track cookie acceptance
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'cookie_accept', {
+                    'event_category': 'Engagement'
+                });
+            }
+        }
+        
+        // Track WhatsApp clicks
+        document.querySelectorAll('a[href^="https://wa.me"]').forEach(link => {
+            link.addEventListener('click', function() {
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'click', {
+                        'event_category': 'WhatsApp',
+                        'event_label': this.textContent
+                    });
+                }
+            });
+        });
+    </script>
+<script src="../mobile-menu-fix.js"></script>
+</body>
+</html>

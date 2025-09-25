@@ -1,0 +1,228 @@
+/* ========================================
+   GALRIVIERA VTC Premium - The Humans Behind the Service
+   Making premium transfers possible on the French Riviera
+   ======================================== */
+
+/* TEAM */
+
+    Founder & CEO: ABSIG CONSULTING SASU
+    Company: GALRIVIERA VTC
+    Location: Valbonne, France
+    Mission: Premium VTC service with multilingual excellence
+    
+    Operations Team: Israeli-French Team
+    Languages: Hebrew, English, French, Spanish, Russian
+    Expertise: 10+ years French Riviera experience
+    Service: 24/7 availability
+    
+    Customer Service: Multilingual Support Team
+    Contact: +33 6 82 26 73 42
+    WhatsApp: wa.me/33682267342
+    Response: < 5 minutes average
+    Languages: 5 languages covered
+
+/* THANKS */
+
+    Special thanks to our loyal customers from Israel
+    Thanks to the French Riviera Jewish community
+    Thanks to Nice Côte d'Azur Airport team
+    Thanks to our hotel partners
+    Thanks to local tourism offices
+    Toda raba to all Israeli tourists choosing us
+    Merci to the French authorities for VTC licensing
+    Shukran to our Arabic-speaking clients
+
+/* PARTNERS */
+
+    Technology Partner: EcoFundrive
+    Website: ecofundrive.com
+    Role: Infrastructure & Innovation
+    Since: 2024
+    
+    Digital Agency: MisterPrompt
+    Website: misterprompt.fr
+    Role: Design & Development
+    Expertise: SEO, UX, Web Development
+    Since: 2025
+
+/* TECHNOLOGY */
+
+    Standards: HTML5, CSS3, JavaScript ES6+
+    Performance: Core Web Vitals optimized
+    SEO: Schema.org, JSON-LD, Hreflang
+    Analytics: Google Analytics 4 (GA4)
+    Communication: WhatsApp Business API
+    Languages: UTF-8, RTL support
+    Accessibility: WCAG 2.1 AA
+    Security: HTTPS, CSP, HSTS
+    Framework: Vanilla (No framework - pure performance)
+    CDN: Cloudflare (via EcoFundrive)
+    Icons: Emoji-based design
+    Fonts: System fonts for speed
+
+/* SERVICES */
+
+    Airport Transfers: Nice Côte d'Azur Airport
+    Tourist Circuits: Nice-Monaco, Nice-Cannes
+    Long Distance: Paris, Lyon, Geneva, Europe
+    Events: Weddings, Congress, Festivals
+    Special: Israeli community services
+    Coverage: Departments 06, 83, 13 and beyond
+    Availability: 24 hours, 7 days a week
+    Fleet: Comfortable vehicles 1-8 passengers
+
+/* LANGUAGES */
+
+    Hebrew: שירות מלא בעברית - נהג דובר עברית
+    English: Full service in English
+    French: Service complet en français
+    Spanish: Servicio completo en español
+    Russian: Полный сервис на русском языке
+
+/* COMMUNITY */
+
+    Kosher restaurants: Full knowledge
+    Synagogues: All locations known
+    Shabbat: Service organization available
+    Hotels: Partnership with kosher-friendly establishments
+    Community events: Transport coordination
+
+/* VALUES */
+
+    Safety: Licensed VTC, insured vehicles
+    Punctuality: Flight monitoring, on-time guarantee
+    Comfort: Premium vehicles, professional service
+    Trust: Transparent pricing, no hidden fees
+    Respect: Cultural understanding, dietary requirements
+    Excellence: 5-star service standard
+    Discretion: Privacy respected
+    Flexibility: Adaptable to all needs
+
+/* LEGAL */
+
+    Company: ABSIG CONSULTING SASU
+    Trade Name: GALRIVIERA
+    Registration: SIRET 914 022 736 00010
+    VAT: FR52 914 022 736
+    Address: 120 Route des Macarons
+    City: 06560 Valbonne
+    Country: France
+    
+/* CONTACT */
+
+    Phone: +33 6 82 26 73 42
+    WhatsApp: +33 6 82 26 73 42
+    Email: absig2consulting@gmail.com
+    Website: galriviera.ecofundrive.com
+    Booking: WhatsApp preferred
+    Support: 24/7 availability
+
+/* SOCIAL */
+
+    WhatsApp: Primary communication
+    Instagram: Coming soon
+    Facebook: Coming soon
+    LinkedIn: ABSIG CONSULTING
+    TripAdvisor: Reviews welcome
+    Google Business: GALRIVIERA VTC
+
+/* ACHIEVEMENTS */
+
+    2024: Service launch
+    2024: 500+ satisfied customers
+    2024: 5-star average rating
+    2025: Website V6.1 launch
+    2025: PWA implementation
+    2025: Multilingual expansion
+    2025: European routes added
+
+/* STATISTICS */
+
+    Languages spoken: 5
+    Years of experience: 10+
+    Airport transfers: 2000+ per year
+    Customer satisfaction: 98%
+    Response time: < 5 minutes
+    Available: 365 days/year
+    Coverage: 100+ destinations
+
+/* PHILOSOPHY */
+
+    "Your comfort is our priority"
+    "A driver speaking your language for your peace of mind"
+    "From Nice to Europe, we take you everywhere"
+    "More than a transfer, an experience"
+    "Your Israeli team on the French Riviera"
+
+/* CERTIFICATIONS */
+
+    VTC License: Professional transport
+    Insurance: Full professional coverage
+    RGPD: Data protection compliant
+    Security: SSL/TLS encrypted
+    Standards: ISO service quality approach
+    Reviews: Verified customer feedback
+
+/* ENVIRONMENT */
+
+    Carbon awareness: Optimized routes
+    Fleet: Euro 6 standards minimum
+    Partnership: EcoFundrive ecological platform
+    Digital: Paperless operations
+    Local: Supporting local economy
+
+/* FUTURE */
+
+    2025 Q2: Mobile app launch
+    2025 Q3: Electric vehicles integration
+    2025 Q4: Loyalty program
+    2026: Monaco Grand Prix packages
+    2026: Cannes Film Festival services
+    2026: Extended European network
+
+/* DEDICATION */
+
+    This service is dedicated to:
+    - The Israeli community in France
+    - Tourism professionals
+    - Our families who support us
+    - The French Riviera we love
+    - Peace and understanding between cultures
+
+/* CREDITS */
+
+    Content: GALRIVIERA Team
+    Design: MisterPrompt.fr
+    Infrastructure: EcoFundrive.com
+    Inspiration: Our customers' needs
+    Motivation: Excellence in service
+
+/* LAST WORDS */
+
+    Thank you for choosing GALRIVIERA.
+    We're not just drivers, we're your hosts on the French Riviera.
+    From our family to yours - safe travels!
+    
+    שלום ותודה
+    Peace and Thank You
+    Paix et Merci
+
+/* METADATA */
+
+    Version: 6.1
+    Last Update: January 20, 2025
+    Next Update: July 2025
+    File: humans.txt
+    Standard: humanstxt.org
+    Language: Multi (EN/FR/HE)
+    Encoding: UTF-8
+
+/* END */
+
+"We are humans, not machines.
+We speak your language, understand your culture,
+and are here to make your journey memorable."
+
+- The GALRIVIERA Team
+
+/* EOF */

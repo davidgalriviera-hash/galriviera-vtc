@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protection des Données | GALRIVIERA - VTC Premium Côte d'Azur</title>
+    <meta name="description" content="Politique de protection des données personnelles GALRIVIERA VTC. RGPD, confidentialité et sécurité de vos informations. ABSIG CONSULTING SASU.">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Canonical -->
+    <link rel="canonical" href="https://galriviera.ecofundrive.com/fr/protection-donnees.html">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Protection des Données - GALRIVIERA VTC">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://galriviera.ecofundrive.com/fr/protection-donnees.html">
+    <meta property="og:locale" content="fr_FR">
+    
+    <!-- GA4 - OBLIGATOIRE -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7E44TJX635"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-7E44TJX635');
+    </script>
+    
+    <style>
+        :root {
+            --noir-premium: #0A0A0A;
+            --noir-soft: #1a1a1a;
+            --or-luxe: #D4AF37;
+            --or-light: #F4E4BC;
+            --argent: #C0C0C0;
+            --blanc: #FFFFFF;
+            --whatsapp: #25D366;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            background: var(--noir-premium);
+            color: var(--blanc);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        /* Header */
+        header {
+            background: rgba(10, 10, 10, 0.95);
+            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px 30px;
+        }
+        
+        .logo {
+            font-size: 28px;
+            font-weight: 300;
+            letter-spacing: 3px;
+            background: linear-gradient(135deg, var(--or-luxe), var(--or-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-decoration: none;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+            align-items: center;
+        }
+        
+        .nav-links a {
+            color: var(--argent);
+            text-decoration: none;
+            transition: color 0.3s;
+            font-size: 15px;
+        }
+        
+        .nav-links a:hover {
+            color: var(--or-luxe);
+        }
+        
+        .cta-header {
+            background: var(--whatsapp);
+            color: var(--blanc);
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.3s;
+        }
+        
+        .cta-header:hover {
+            transform: scale(1.05);
+        }
+        
+        /* Main Container */
+        .legal-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 80px 30px;
+        }
+        
+        h1 {
+            font-size: clamp(36px, 5vw, 48px);
+            background: linear-gradient(135deg, var(--or-luxe), var(--or-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 50px;
+            text-align: center;
+            font-weight: 300;
+        }
+        
+        /* Legal Sections */
+        .legal-section {
+            background: linear-gradient(135deg, var(--noir-soft), var(--noir-premium));
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .legal-section h2 {
+            color: var(--or-luxe);
+            font-size: 24px;
+            margin-bottom: 20px;
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .legal-section h3 {
+            color: var(--or-light);
+            font-size: 20px;
+            margin: 25px 0 15px;
+        }
+        
+        .legal-section p {
+            color: var(--argent);
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+        
+        .legal-section ul {
+            list-style: none;
+            padding-left: 20px;
+            margin: 15px 0;
+        }
+        
+        .legal-section li {
+            color: var(--argent);
+            padding: 5px 0;
+            position: relative;
+            padding-left: 25px;
+        }
+        
+        .legal-section li:before {
+            content: '▸';
+            position: absolute;
+            left: 0;
+            color: var(--or-luxe);
+        }
+        
+        .legal-section a {
+            color: var(--or-luxe);
+            text-decoration: none;
+        }
+        
+        .legal-section a:hover {
+            text-decoration: underline;
+        }
+        
+        .highlight {
+            color: var(--or-light);
+            font-weight: 600;
+        }
+        
+        .info-box {
+            background: rgba(212, 175, 55, 0.1);
+            border-left: 3px solid var(--or-luxe);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .info-box p {
+            color: var(--blanc);
+        }
+        
+        /* Table Styles */
+        .data-table {
+            width: 100%;
+            margin: 20px 0;
+            border-collapse: collapse;
+        }
+        
+        .data-table th {
+            background: var(--or-luxe);
+            color: var(--noir-premium);
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        .data-table td {
+            padding: 12px;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+            color: var(--argent);
+        }
+        
+        .data-table tr:hover {
+            background: rgba(212, 175, 55, 0.05);
+        }
+        
+        /* Footer */
+        footer {
+            background: var(--noir-premium);
+            padding: 40px 20px 20px;
+            border-top: 2px solid var(--or-luxe);
+            margin-top: 80px;
+        }
+        
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 30px;
+        }
+        
+        .footer-section h4 {
+            color: var(--or-luxe);
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+        
+        .footer-section ul {
+            list-style: none;
+        }
+        
+        .footer-section li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-section li:before {
+            content: none;
+        }
+        
+        .footer-section a {
+            color: var(--argent);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-section a:hover {
+            color: var(--or-light);
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid #333;
+            color: var(--argent);
+        }
+        
+        .footer-credits {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+        
+        .footer-credits a {
+            color: var(--or-luxe);
+            text-decoration: none;
+        }
+        
+        /* WhatsApp Float */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: var(--whatsapp);
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 30px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+            z-index: 1000;
+            transition: all 0.3s;
+            animation: pulse 2s infinite;
+        }
+        
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            box-shadow: 0 15px 40px rgba(37, 211, 102, 0.4);
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            nav {
+                padding: 15px 20px;
+            }
+            
+            .nav-links {
+                display: none;
+            }
+            
+            .legal-container {
+                padding: 60px 20px;
+            }
+            
+            .legal-section {
+                padding: 25px 20px;
+            }
+            
+            .footer-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+            
+            .data-table {
+                font-size: 14px;
+            }
+            
+            .data-table th, .data-table td {
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="/fr/" class="logo">GALRIVIERA</a>
+            <ul class="nav-links">
+                <li><a href="/fr/">Accueil</a></li>
+                <li><a href="/fr/services.html">Services</a></li>
+                <li><a href="/fr/transfert-aeroport.html">Aéroport</a></li>
+                <li><a href="/fr/nice-monaco.html">Nice-Monaco</a></li>
+                <li><a href="/fr/nice-cannes.html">Nice-Cannes</a></li>
+                <li><a href="/fr/guide-israelien.html">Guide Israélien</a></li>
+                <li><a href="/fr/contact.html">Contact</a></li>
+                <li><a href="https://wa.me/33682267342?text=Bonjour,%20j'ai%20des%20questions%20sur%20la%20protection%20des%20données" class="cta-header">📱 WhatsApp</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="legal-container">
+        <h1>🔒 Politique de Protection des Données</h1>
+        
+        <!-- Introduction -->
+        <section class="legal-section">
+            <h2>📋 Introduction</h2>
+            <p>La protection de vos données personnelles est une priorité absolue pour <strong class="highlight">ABSIG CONSULTING SASU</strong> (GALRIVIERA).</p>
+            <p>Cette politique de confidentialité explique comment nous collectons, utilisons, stockons et protégeons vos informations conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés.</p>
+            <div class="info-box">
+                <p><strong>Date de mise à jour :</strong> Janvier 2025 - Version 6.1</p>
+                <p><strong>Responsable du traitement :</strong> ABSIG CONSULTING SASU</p>
+            </div>
+        </section>
+
+        <!-- Responsable du traitement -->
+        <section class="legal-section">
+            <h2>🏢 1. Responsable du Traitement</h2>
+            <p><strong class="highlight">Identité :</strong> ABSIG CONSULTING SASU</p>
+            <p><strong class="highlight">SIRET :</strong> 914 022 736 00010</p>
+            <p><strong class="highlight">Siège social :</strong> 120 Route des Macarons, 06560 Valbonne, France</p>
+            <p><strong class="highlight">Contact DPO :</strong> absig2consulting@gmail.com</p>
+            <p><strong class="highlight">WhatsApp :</strong> <a href="https://wa.me/33682267342">+33 6 82 26 73 42</a></p>
+        </section>
+
+        <!-- Données collectées -->
+        <section class="legal-section">
+            <h2>📊 2. Données Collectées</h2>
+            
+            <h3>Données de contact</h3>
+            <ul>
+                <li>Nom et prénom</li>
+                <li>Numéro de téléphone</li>
+                <li>Adresse email (optionnel)</li>
+                <li>Adresse de prise en charge et destination</li>
+                <li>Langue préférée pour le service</li>
+            </ul>
+            
+            <h3>Données de service</h3>
+            <ul>
+                <li>Date et heure de réservation</li>
+                <li>Type de véhicule demandé</li>
+                <li>Numéro de vol (pour transferts aéroport)</li>
+                <li>Nombre de passagers et bagages</li>
+                <li>Préférences de service spécifiques</li>
+            </ul>
+            
+            <h3>Données techniques (via Google Analytics GA4)</h3>
+            <ul>
+                <li>Adresse IP (anonymisée)</li>
+                <li>Type de navigateur et système d'exploitation</li>
+                <li>Pages visitées et durée de visite</li>
+                <li>Source de trafic</li>
+                <li>Données de géolocalisation approximative</li>
+            </ul>
+            
+            <div class="info-box">
+                <p>💡 <strong>Note :</strong> Notre équipe couvre 5 langues. Un membre de notre équipe parlant votre langue vous sera attribué selon vos préférences linguistiques communiquées.</p>
+            </div>
+        </section>
+
+        <!-- Finalités du traitement -->
+        <section class="legal-section">
+            <h2>🎯 3. Finalités du Traitement</h2>
+            
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Finalité</th>
+                        <th>Base Légale</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Gestion des réservations VTC</td>
+                        <td>Exécution du contrat</td>
+                    </tr>
+                    <tr>
+                        <td>Communication service client</td>
+                        <td>Intérêt légitime</td>
+                    </tr>
+                    <tr>
+                        <td>Facturation et comptabilité</td>
+                        <td>Obligation légale</td>
+                    </tr>
+                    <tr>
+                        <td>Attribution d'un intervenant parlant votre langue</td>
+                        <td>Exécution du contrat</td>
+                    </tr>
+                    <tr>
+                        <td>Amélioration des services</td>
+                        <td>Intérêt légitime</td>
+                    </tr>
+                    <tr>
+                        <td>Statistiques de fréquentation (GA4)</td>
+                        <td>Consentement</td>
+                    </tr>
+                    <tr>
+                        <td>Respect des obligations légales VTC</td>
+                        <td>Obligation légale</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Durée de conservation -->
+        <section class="legal-section">
+            <h2>⏱️ 4. Durée de Conservation</h2>
+            
+            <ul>
+                <li><strong>Données de réservation :</strong> 3 ans après la dernière prestation</li>
+                <li><strong>Données comptables :</strong> 10 ans (obligation légale)</li>
+                <li><strong>Conversations WhatsApp :</strong> 1 an maximum</li>
+                <li><strong>Cookies et données Analytics :</strong> 13 mois</li>
+                <li><strong>Données prospects :</strong> 3 ans après le dernier contact</li>
+                <li><strong>Registre VTC :</strong> 5 ans (obligation réglementaire)</li>
+            </ul>
+            
+            <p>Les données sont automatiquement supprimées ou anonymisées au terme de ces durées.</p>
+        </section>
+
+        <!-- Destinataires -->
+        <section class="legal-section">
+            <h2>👥 5. Destinataires des Données</h2>
+            
+            <h3>Destinataires internes</h3>
+            <ul>
+                <li>Notre équipe opérationnelle (uniquement données nécessaires au service)</li>
+                <li>Service administratif ABSIG CONSULTING</li>
+                <li>Service comptabilité</li>
+            </ul>
+            
+            <h3>Destinataires externes (sous-traitants)</h3>
+            <ul>
+                <li><strong>Google Analytics :</strong> Analyse du trafic web</li>
+                <li><strong>WhatsApp (Meta) :</strong> Communication client</li>
+                <li><strong>Expert-comptable :</strong> Gestion comptable</li>
+                <li><strong>Hébergeur web :</strong> Via notre partenaire <a href="https://ecofundrive.com">EcoFundrive</a></li>
+            </ul>
+            
+            <div class="info-box">
+                <p>⚠️ <strong>Important :</strong> Nous ne vendons, ne louons et ne partageons JAMAIS vos données personnelles à des tiers à des fins commerciales.</p>
+            </div>
+        </section>
+
+        <!-- Vos droits -->
+        <section class="legal-section">
+            <h2>⚖️ 6. Vos Droits RGPD</h2>
+            
+            <p>Conformément au RGPD, vous disposez des droits suivants :</p>
+            
+            <ul>
+                <li><strong>Droit d'accès :</strong> Obtenir une copie de vos données personnelles</li>
+                <li><strong>Droit de rectification :</strong> Corriger des données inexactes</li>
+                <li><strong>Droit à l'effacement :</strong> Demander la suppression de vos données</li>
+                <li><strong>Droit à la limitation :</strong> Limiter le traitement de vos données</li>
+                <li><strong>Droit à la portabilité :</strong> Recevoir vos données dans un format structuré</li>
+                <li><strong>Droit d'opposition :</strong> S'opposer au traitement de vos données</li>
+                <li><strong>Droit de retirer votre consentement :</strong> À tout moment pour les cookies</li>
+            </ul>
+            
+            <h3>Comment exercer vos droits ?</h3>
+            <p>Contactez-nous par :</p>
+            <ul>
+                <li>Email : <a href="mailto:absig2consulting@gmail.com">absig2consulting@gmail.com</a></li>
+                <li>WhatsApp : <a href="https://wa.me/33682267342?text=Demande%20RGPD:%20">+33 6 82 26 73 42</a></li>
+                <li>Courrier : ABSIG CONSULTING SASU, 120 Route des Macarons, 06560 Valbonne</li>
+            </ul>
+            
+            <p>Nous répondons sous <strong>30 jours maximum</strong>. Une pièce d'identité peut être demandée.</p>
+        </section>
+
+        <!-- Sécurité -->
+        <section class="legal-section">
+            <h2>🔐 7. Sécurité des Données</h2>
+            
+            <p>Nous mettons en œuvre les mesures techniques et organisationnelles appropriées :</p>
+            
+            <ul>
+                <li>Chiffrement SSL/TLS pour toutes les transmissions</li>
+                <li>Accès restreint aux données (principe du moindre privilège)</li>
+                <li>Mots de passe forts et authentification sécurisée</li>
+                <li>Sauvegardes régulières et sécurisées</li>
+                <li>Formation de notre équipe à la protection des données</li>
+                <li>Audit régulier de nos pratiques de sécurité</li>
+                <li>Pseudonymisation des données lorsque possible</li>
+            </ul>
+            
+            <div class="info-box">
+                <p>🛡️ En cas de violation de données, nous nous engageons à vous notifier dans les 72 heures si le risque pour vos droits est élevé.</p>
+            </div>
+        </section>
+
+        <!-- Cookies -->
+        <section class="legal-section">
+            <h2>🍪 8. Politique de Cookies</h2>
+            
+            <h3>Cookies utilisés</h3>
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>Finalité</th>
+                        <th>Durée</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Google Analytics (_ga, _gid)</td>
+                        <td>Statistiques de visite</td>
+                        <td>13 mois</td>
+                    </tr>
+                    <tr>
+                        <td>Cookie de consentement</td>
+                        <td>Mémoriser votre choix</td>
+                        <td>12 mois</td>
+                    </tr>
+                    <tr>
+                        <td>Session</td>
+                        <td>Navigation sur le site</td>
+                        <td>Session</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <h3>Gestion des cookies</h3>
+            <p>Vous pouvez gérer vos préférences cookies :</p>
+            <ul>
+                <li>Via la bannière de consentement lors de votre première visite</li>
+                <li>Dans les paramètres de votre navigateur</li>
+                <li>En vidant le cache et revisitant le site</li>
+            </ul>
+        </section>
+
+        <!-- Transferts internationaux -->
+        <section class="legal-section">
+            <h2>🌍 9. Transferts de Données</h2>
+            
+            <p>Certains de nos sous-traitants peuvent traiter des données hors UE :</p>
+            
+            <ul>
+                <li><strong>Google (Analytics) :</strong> Clauses contractuelles types + certification Privacy Shield</li>
+                <li><strong>Meta (WhatsApp) :</strong> Clauses contractuelles types de la Commission Européenne</li>
+            </ul>
+            
+            <p>Nous veillons à ce que ces transferts respectent le niveau de protection requis par le RGPD.</p>
+        </section>
+
+        <!-- Service multilingue -->
+        <section class="legal-section">
+            <h2>🌐 10. Service Multilingue et Données</h2>
+            
+            <p>Notre service est disponible en 5 langues :</p>
+            <ul>
+                <li>Hébreu 🇮🇱</li>
+                <li>Anglais 🇬🇧</li>
+                <li>Français 🇫🇷</li>
+                <li>Espagnol 🇪🇸</li>
+                <li>Russe 🇷🇺</li>
+            </ul>
+            
+            <p><strong>Comment nous utilisons votre préférence linguistique :</strong></p>
+            <ul>
+                <li>Attribution d'un membre de l'équipe parlant votre langue</li>
+                <li>Communications dans votre langue préférée</li>
+                <li>Documentation et factures adaptées</li>
+            </ul>
+            
+            <p>Cette donnée est conservée uniquement pour améliorer votre expérience service.</p>
+        </section>
+
+        <!-- Mineurs -->
+        <section class="legal-section">
+            <h2>👶 11. Protection des Mineurs</h2>
+            
+            <p>Notre service s'adresse aux personnes majeures (18 ans et plus).</p>
+            <p>Pour le transport de mineurs :</p>
+            <ul>
+                <li>Autorisation parentale obligatoire</li>
+                <li>Accompagnement par un adulte recommandé</li>
+                <li>Sièges enfants fournis gratuitement sur demande</li>
+                <li>Données des mineurs non conservées au-delà du service</li>
+            </ul>
+        </section>
+
+        <!-- Modifications -->
+        <section class="legal-section">
+            <h2>📝 12. Modifications de la Politique</h2>
+            
+            <p>Cette politique peut être mise à jour pour rester conforme aux évolutions légales.</p>
+            <p>Les modifications importantes seront notifiées par :</p>
+            <ul>
+                <li>Notification sur le site web</li>
+                <li>Email aux clients actifs</li>
+                <li>Message WhatsApp si nécessaire</li>
+            </ul>
+            
+            <p><strong>Dernière mise à jour :</strong> Janvier 2025 - Version 6.1</p>
+        </section>
+
+        <!-- Réclamation -->
+        <section class="legal-section">
+            <h2>📞 13. Réclamation et Autorité de Contrôle</h2>
+            
+            <p>Si vous estimez que vos droits ne sont pas respectés, vous pouvez :</p>
+            
+            <ol style="padding-left: 20px;">
+                <li>Nous contacter directement : <a href="mailto:absig2consulting@gmail.com">absig2consulting@gmail.com</a></li>
+                <li>Déposer une réclamation auprès de la <strong>CNIL</strong> :</li>
+            </ol>
+            
+            <div class="info-box">
+                <p><strong>Commission Nationale de l'Informatique et des Libertés (CNIL)</strong></p>
+                <p>3 Place de Fontenoy - TSA 80715 - 75334 PARIS CEDEX 07</p>
+                <p>Site : <a href="https://www.cnil.fr" target="_blank">www.cnil.fr</a></p>
+            </div>
+        </section>
+
+        <!-- Contact DPO -->
+        <section class="legal-section">
+            <h2>✉️ 14. Contact Protection des Données</h2>
+            
+            <p>Pour toute question concernant vos données personnelles :</p>
+            
+            <div class="info-box">
+                <p><strong>Délégué à la Protection des Données (DPO)</strong></p>
+                <p>ABSIG CONSULTING SASU - GALRIVIERA</p>
+                <p>120 Route des Macarons, 06560 Valbonne</p>
+                <p>📧 Email : <a href="mailto:absig2consulting@gmail.com">absig2consulting@gmail.com</a></p>
+                <p>📱 WhatsApp : <a href="https://wa.me/33682267342?text=Question%20RGPD:%20">+33 6 82 26 73 42</a></p>
+                <p>⏰ Délai de réponse : 30 jours maximum</p>
+            </div>
+            
+            <p>N'hésitez pas à nous contacter pour exercer vos droits ou pour toute question relative à la protection de vos données personnelles. Notre équipe est à votre disposition 7j/7.</p>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="/fr/transfert-aeroport.html">Transferts Aéroport</a></li>
+                    <li><a href="/fr/services.html#tours">Circuits Touristiques</a></li>
+                    <li><a href="/fr/nice-monaco.html">Nice-Monaco</a></li>
+                    <li><a href="/fr/nice-cannes.html">Nice-Cannes</a></li>
+                    <li><a href="/fr/services.html#longue-distance">Longue Distance</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Destinations</h4>
+                <ul>
+                    <li><a href="/fr/services.html#nice">Nice</a></li>
+                    <li><a href="/fr/services.html#monaco">Monaco</a></li>
+                    <li><a href="/fr/services.html#cannes">Cannes</a></li>
+                    <li><a href="/fr/services.html#antibes">Antibes</a></li>
+                    <li><a href="/fr/services.html#saint-tropez">Saint-Tropez</a></li>
+                    <li><a href="/fr/services.html#marseille">Marseille</a></li>
+                    <li><a href="/fr/services.html#menton">Menton</a></li>
+                    <li><a href="/fr/services.html#longue-distance">Europe</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Informations</h4>
+                <ul>
+                    <li><a href="/fr/">À Propos</a></li>
+                    <li><a href="/fr/guide-israelien.html">Guide Israélien</a></li>
+                    <li><a href="/fr/contact.html">Contact</a></li>
+                    <li><a href="https://wa.me/33682267342">Réserver Maintenant</a></li>
+                    <li><a href="/fr/mentions-legales.html">Mentions Légales</a></li>
+                    <li><a href="/fr/protection-donnees.html">Protection des Données</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>GALRIVIERA</h4>
+                <ul>
+                    <li>ABSIG CONSULTING SASU</li>
+                    <li>120 Route des Macarons</li>
+                    <li>06560 Valbonne, France</li>
+                    <li>📱 +33 6 82 26 73 42</li>
+                    <li>✉️ absig2consulting@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>© 2025 GALRIVIERA - ABSIG CONSULTING SASU - Tous Droits Réservés</p>
+            <div class="footer-credits">
+                🤝 Partenaire Officiel de <a href="https://ecofundrive.com" rel="partner">EcoFundrive.com</a>
+                • ✨ Conçu et Développé par <a href="https://misterprompt.fr" rel="author">MisterPrompt.fr</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/33682267342?text=Bonjour,%20j'ai%20une%20question%20concernant%20la%20protection%20des%20données" class="whatsapp-float">
+        💬
+    </a>
+</body>
+</html>

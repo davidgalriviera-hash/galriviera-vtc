@@ -1,0 +1,1249 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nice-Monaco Tour VTC | GALRIVIERA - Team of Israeli Drivers</title>
+    <meta name="description" content="Nice-Monaco scenic tour with our team of Israeli drivers. Multilingual service in 5 languages. Discover the Corniche, Èze, Monte-Carlo with a driver speaking your language.">
+    <meta name="keywords" content="Nice Monaco VTC, French Riviera tour, private driver Nice Monaco, Israeli team, guided tour">
+    
+    <!-- Canonical and Alternates -->
+    <link rel="canonical" href="https://galriviera.ecofundrive.com/en/nice-monaco.html">
+    <link rel="alternate" hreflang="he" href="https://galriviera.ecofundrive.com/he/nice-monaco.html">
+    <link rel="alternate" hreflang="en" href="https://galriviera.ecofundrive.com/en/nice-monaco.html">
+    <link rel="alternate" hreflang="fr" href="https://galriviera.ecofundrive.com/fr/nice-monaco.html">
+    <link rel="alternate" hreflang="x-default" href="https://galriviera.ecofundrive.com/en/nice-monaco.html">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Nice-Monaco Tour - GALRIVIERA VTC Premium">
+    <meta property="og:description" content="Discover the legendary Nice-Monaco route with our multilingual team. Premium service and guide in your language.">
+    <meta property="og:url" content="https://galriviera.ecofundrive.com/en/nice-monaco.html">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- GA4 MANDATORY -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7E44TJX635"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-7E44TJX635');
+    </script>
+    
+    <style>
+        :root {
+            --noir-premium: #0A0A0A;
+            --noir-soft: #1a1a1a;
+            --or-luxe: #D4AF37;
+            --or-light: #F4E4BC;
+            --argent: #C0C0C0;
+            --blanc: #FFFFFF;
+            --whatsapp: #25D366;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            background: var(--noir-premium);
+            color: var(--blanc);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--noir-premium) 0%, var(--noir-soft) 100%);
+            padding: 20px 0;
+            border-bottom: 1px solid var(--or-luxe);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .logo {
+            font-size: clamp(24px, 4vw, 32px);
+            font-weight: 300;
+            letter-spacing: 3px;
+            background: linear-gradient(135deg, var(--or-luxe), var(--or-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-decoration: none;
+        }
+        
+        .nav-menu {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .nav-menu a {
+            color: var(--argent);
+            text-decoration: none;
+            transition: color 0.3s;
+            font-size: 15px;
+        }
+        
+        .nav-menu a:hover, .nav-menu a.active {
+            color: var(--or-luxe);
+        }
+        
+        .language-selector {
+            display: flex;
+            gap: 10px;
+            margin-left: 20px;
+        }
+        
+        .lang-btn {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: 1px solid var(--or-luxe);
+        }
+        
+        .lang-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
+        }
+        
+        .lang-btn.active {
+            background: var(--or-luxe);
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.6);
+        }
+        
+        .header-cta {
+            background: var(--whatsapp);
+            color: var(--blanc);
+            padding: 8px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.3s;
+            margin-left: 20px;
+        }
+        
+        .header-cta:hover {
+            transform: scale(1.05);
+        }
+        
+        /* Hero Section */
+        .hero-section {
+            background: linear-gradient(135deg, var(--noir-premium), var(--noir-soft));
+            padding: 100px 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero-section::before {
+            content: '🏎️';
+            position: absolute;
+            font-size: 400px;
+            opacity: 0.03;
+            top: -100px;
+            right: -100px;
+            animation: drive 30s linear infinite;
+        }
+        
+        @keyframes drive {
+            0% { transform: translateX(0) rotate(0deg); }
+            100% { transform: translateX(-2000px) rotate(-360deg); }
+        }
+        
+        .hero-content {
+            max-width: 900px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .hero-section h1 {
+            font-size: clamp(36px, 5vw, 64px);
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, var(--or-luxe), var(--or-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 300;
+            line-height: 1.2;
+        }
+        
+        .hero-subtitle {
+            font-size: clamp(18px, 2.5vw, 24px);
+            color: var(--argent);
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+        
+        .hero-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--whatsapp);
+            color: var(--blanc);
+            padding: 15px 35px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            transition: all 0.3s;
+            box-shadow: 0 10px 30px rgba(37, 211, 102, 0.3);
+        }
+        
+        .hero-cta:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 40px rgba(37, 211, 102, 0.4);
+        }
+        
+        /* Route Section */
+        .route-section {
+            padding: 80px 20px;
+            background: var(--noir-premium);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: clamp(32px, 4vw, 48px);
+            margin-bottom: 50px;
+            background: linear-gradient(135deg, var(--or-luxe), var(--or-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .route-intro {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 60px;
+            color: var(--argent);
+            font-size: 18px;
+            line-height: 1.8;
+        }
+        
+        .route-highlights {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+        
+        .highlight-card {
+            background: linear-gradient(135deg, var(--noir-soft), var(--noir-premium));
+            border: 2px solid var(--or-luxe);
+            border-radius: 15px;
+            padding: 40px;
+            text-align: center;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .highlight-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(212, 175, 55, 0.1) 0%, transparent 70%);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        
+        .highlight-card:hover::before {
+            opacity: 1;
+        }
+        
+        .highlight-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(212, 175, 55, 0.3);
+        }
+        
+        .highlight-icon {
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+        
+        .highlight-title {
+            font-size: 24px;
+            color: var(--or-luxe);
+            margin-bottom: 15px;
+        }
+        
+        .highlight-desc {
+            color: var(--argent);
+            line-height: 1.8;
+        }
+        
+        .highlight-time {
+            margin-top: 15px;
+            color: var(--or-light);
+            font-weight: bold;
+        }
+        
+        /* Stops Section */
+        .stops-section {
+            padding: 80px 20px;
+            background: linear-gradient(135deg, var(--noir-soft), var(--noir-premium));
+        }
+        
+        .stops-timeline {
+            max-width: 900px;
+            margin: 0 auto;
+            position: relative;
+            padding: 20px;
+        }
+        
+        .stop-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 60px;
+            position: relative;
+        }
+        
+        .stop-item:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+        
+        .stop-content {
+            flex: 1;
+            padding: 30px;
+            background: linear-gradient(135deg, rgba(26, 26, 26, 0.9), rgba(10, 10, 10, 0.95));
+            border: 2px solid var(--or-luxe);
+            border-radius: 10px;
+            transition: all 0.3s;
+            position: relative;
+        }
+        
+        .stop-item:nth-child(odd) .stop-content {
+            margin-right: 20px;
+            text-align: left;
+        }
+        
+        .stop-item:nth-child(even) .stop-content {
+            margin-left: 20px;
+            text-align: left;
+        }
+        
+        .stop-content:hover {
+            border-color: var(--or-light);
+            box-shadow: 0 15px 35px rgba(212, 175, 55, 0.3);
+            transform: scale(1.02);
+        }
+        
+        .stop-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 60px;
+            position: relative;
+        }
+        
+        .stop-item:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+        
+        .stop-content {
+            flex: 1;
+            padding: 30px;
+            background: rgba(26, 26, 26, 0.8);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            border-radius: 10px;
+            transition: all 0.3s;
+        }
+        
+        .stop-item:nth-child(odd) .stop-content {
+            margin-right: 30px;
+            text-align: right;
+        }
+        
+        .stop-item:nth-child(even) .stop-content {
+            margin-left: 30px;
+            text-align: left;
+        }
+        
+        .stop-content:hover {
+            border-color: var(--or-luxe);
+            box-shadow: 0 15px 35px rgba(212, 175, 55, 0.2);
+            transform: scale(1.02);
+        }
+        
+        .stop-point {
+            width: 30px;
+            height: 30px;
+            background: linear-gradient(135deg, var(--or-luxe), var(--or-light));
+            border: 3px solid var(--noir-soft);
+            border-radius: 50%;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.6);
+            z-index: 2;
+        }
+        
+        .stop-name {
+            font-size: 24px;
+            color: var(--or-luxe);
+            margin-bottom: 10px;
+        }
+        
+        .stop-desc {
+            color: var(--argent);
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        
+        .stop-distance {
+            color: var(--or-light);
+            font-size: 14px;
+            font-weight: bold;
+        }
+        
+        /* Options Section */
+        .options-section {
+            padding: 80px 20px;
+            background: var(--noir-premium);
+        }
+        
+        .options-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+        }
+        
+        .option-card {
+            background: linear-gradient(135deg, var(--noir-soft), var(--noir-premium));
+            border: 2px solid var(--or-luxe);
+            border-radius: 15px;
+            padding: 40px;
+            transition: all 0.3s;
+            text-align: center;
+        }
+        
+        .option-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(212, 175, 55, 0.3);
+        }
+        
+        .option-title {
+            font-size: 28px;
+            color: var(--or-luxe);
+            margin-bottom: 20px;
+        }
+        
+        .option-duration {
+            font-size: 20px;
+            color: var(--or-light);
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        
+        .option-features {
+            list-style: none;
+            margin: 20px 0 30px;
+        }
+        
+        .option-features li {
+            color: var(--argent);
+            margin: 10px 0;
+            padding-left: 25px;
+            position: relative;
+            text-align: left;
+        }
+        
+        .option-features li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--or-luxe);
+            font-weight: bold;
+        }
+        
+        .option-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--whatsapp);
+            color: var(--blanc);
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        
+        .option-cta:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 25px rgba(37, 211, 102, 0.3);
+        }
+        
+        /* Experience Section */
+        .experience-section {
+            padding: 80px 20px;
+            background: linear-gradient(135deg, var(--noir-soft), var(--noir-premium));
+        }
+        
+        .experience-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+        }
+        
+        .experience-item {
+            text-align: center;
+            padding: 30px 20px;
+            background: rgba(26, 26, 26, 0.5);
+            border-radius: 10px;
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            transition: all 0.3s;
+        }
+        
+        .experience-item:hover {
+            border-color: var(--or-luxe);
+            transform: translateY(-5px);
+            background: rgba(26, 26, 26, 0.8);
+        }
+        
+        .experience-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+            color: var(--or-luxe);
+        }
+        
+        .experience-title {
+            font-size: 20px;
+            color: var(--or-light);
+            margin-bottom: 15px;
+        }
+        
+        .experience-desc {
+            color: var(--argent);
+            line-height: 1.6;
+        }
+        
+        /* Booking Section */
+        .booking-section {
+            padding: 80px 20px;
+            background: var(--noir-premium);
+            text-align: center;
+        }
+        
+        .booking-box {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 50px;
+            background: linear-gradient(135deg, var(--noir-soft), var(--noir-premium));
+            border: 2px solid var(--or-luxe);
+            border-radius: 20px;
+        }
+        
+        .booking-title {
+            font-size: 36px;
+            color: var(--or-luxe);
+            margin-bottom: 20px;
+        }
+        
+        .booking-desc {
+            color: var(--argent);
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+        
+        .booking-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--whatsapp);
+            color: var(--blanc);
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+            transition: all 0.3s;
+        }
+        
+        .booking-cta:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 35px rgba(37, 211, 102, 0.4);
+        }
+        
+        /* FAQ Section */
+        .faq-section {
+            padding: 80px 20px;
+            background: linear-gradient(135deg, var(--noir-soft), var(--noir-premium));
+        }
+        
+        .faq-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .faq-item {
+            background: var(--noir-premium);
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            border-radius: 8px;
+            padding: 25px;
+            transition: all 0.3s;
+        }
+        
+        .faq-item:hover {
+            border-color: var(--or-luxe);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(212, 175, 55, 0.15);
+        }
+        
+        .faq-question {
+            color: var(--or-luxe);
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+        
+        .faq-answer {
+            color: var(--argent);
+            line-height: 1.8;
+        }
+        
+        /* Footer */
+        footer {
+            background: var(--noir-premium);
+            padding: 40px 20px 20px;
+            border-top: 2px solid var(--or-luxe);
+        }
+        
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 30px;
+        }
+        
+        .footer-section h4 {
+            color: var(--or-luxe);
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+        
+        .footer-section ul {
+            list-style: none;
+        }
+        
+        .footer-section li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-section a {
+            color: var(--argent);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-section a:hover {
+            color: var(--or-light);
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid #333;
+            color: var(--argent);
+        }
+        
+        .footer-credits {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+        
+        .footer-credits a {
+            color: var(--or-luxe);
+            text-decoration: none;
+        }
+        
+        /* WhatsApp Float */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: var(--whatsapp);
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 30px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+            z-index: 1000;
+            transition: all 0.3s;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            animation: none;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .nav-menu {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .stop-item {
+                flex-direction: column !important;
+            }
+            
+            .stop-item:nth-child(odd) .stop-content,
+            .stop-item:nth-child(even) .stop-content {
+                margin: 0 20px;
+                text-align: center;
+            }
+            
+            .faq-grid, .options-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .whatsapp-float {
+                bottom: 20px;
+                right: 20px;
+                width: 55px;
+                height: 55px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="/en/" class="logo">GALRIVIERA</a>
+            
+            <div class="nav-menu">
+                <a href="/en/">Home</a>
+                <a href="/en/services.html">Services</a>
+                <a href="/en/airport-transfer.html">Airport Transfer</a>
+                <a href="/en/nice-monaco.html" class="active">Nice-Monaco</a>
+                <a href="/en/nice-cannes.html">Nice-Cannes</a>
+                <a href="/en/israeli-guide.html">Israeli Guide</a>
+                <a href="/en/contact.html">Contact</a>
+                
+                <div class="language-selector">
+                    <a href="/he/nice-monaco.html" class="lang-btn" title="עברית">🇮🇱</a>
+                    <a href="/en/nice-monaco.html" class="lang-btn active" title="English">🇬🇧</a>
+                    <a href="/fr/nice-monaco.html" class="lang-btn" title="Français">🇫🇷</a>
+                </div>
+                
+                <a href="https://wa.me/33682267342?text=Hello,%20I%20want%20to%20book%20the%20Nice-Monaco%20tour" class="header-cta">
+                    💬 WhatsApp
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Legendary Nice-Monaco Tour<br>with Our Team of Israeli Drivers</h1>
+            <p class="hero-subtitle">
+                Discover the most spectacular panoramic route of the French Riviera. 
+                Our multilingual team accompanies you with a driver speaking your language 
+                for an unforgettable experience between Nice and Monaco.
+            </p>
+            <a href="https://wa.me/33682267342?text=Hello,%20I%20want%20to%20discover%20Nice-Monaco" class="hero-cta">
+                <span>🏎️</span>
+                <span>Book This Tour</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Route Section -->
+    <section class="route-section">
+        <div class="container">
+            <h2 class="section-title">The Nice-Monaco Route</h2>
+            <p class="route-intro">
+                35 kilometers of pure beauty along the Mediterranean. Our team of Israeli drivers 
+                knows every turn, every spectacular viewpoint. A driver speaking your 
+                language will be assigned to share the history and secrets of this legendary road.
+            </p>
+            
+            <div class="route-highlights">
+                <div class="highlight-card">
+                    <div class="highlight-icon">🌊</div>
+                    <h3 class="highlight-title">The Corniche</h3>
+                    <p class="highlight-desc">
+                        Three legendary roads: the Lower, Middle and Upper Corniche. 
+                        Each offers unique perspectives of the Mediterranean.
+                    </p>
+                    <p class="highlight-time">⏱️ Nice → Monaco: 30-45 min</p>
+                </div>
+                
+                <div class="highlight-card">
+                    <div class="highlight-icon">🏛️</div>
+                    <h3 class="highlight-title">Èze Village</h3>
+                    <p class="highlight-desc">
+                        Perched at 427m altitude, this medieval village offers the most beautiful view 
+                        of the French Riviera. An essential stop on your journey.
+                    </p>
+                    <p class="highlight-time">⏱️ Visit: 1h recommended</p>
+                </div>
+                
+                <div class="highlight-card">
+                    <div class="highlight-icon">🎰</div>
+                    <h3 class="highlight-title">Monte-Carlo</h3>
+                    <p class="highlight-desc">
+                        Monaco's most prestigious district. Casino, palace, luxury yachts 
+                        and extraordinary gardens await you.
+                    </p>
+                    <p class="highlight-time">⏱️ Visit: 2-3h minimum</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stops Section -->
+    <section class="stops-section">
+        <div class="container">
+            <h2 class="section-title">Tour Stops</h2>
+            
+            <div class="stops-timeline">
+                <div class="stop-item">
+                    <div class="stop-content">
+                        <h3 class="stop-name">📍 Nice - Promenade des Anglais</h3>
+                        <p class="stop-desc">
+                            Legendary starting point. Our team welcomes you to begin 
+                            this adventure along the Bay of Angels.
+                        </p>
+                        <p class="stop-distance">Km 0 - Start</p>
+                    </div>
+                </div>
+                
+                <div class="stop-item">
+                    <div class="stop-content">
+                        <h3 class="stop-name">📍 Villefranche-sur-Mer</h3>
+                        <p class="stop-desc">
+                            One of the world's most beautiful bays. Mandatory photo stop 
+                            with views of Saint-Jean-Cap-Ferrat peninsula.
+                        </p>
+                        <p class="stop-distance">Km 8 - 10 min</p>
+                    </div>
+                </div>
+                
+                <div class="stop-item">
+                    <div class="stop-content">
+                        <h3 class="stop-name">📍 Col d'Èze</h3>
+                        <p class="stop-desc">
+                            Road's highest point at 512m. 360° panoramic view 
+                            of the entire Riviera. La Chèvre d'Or restaurant available.
+                        </p>
+                        <p class="stop-distance">Km 15 - 20 min</p>
+                    </div>
+                </div>
+                
+                <div class="stop-item">
+                    <div class="stop-content">
+                        <h3 class="stop-name">📍 La Turbie</h3>
+                        <p class="stop-desc">
+                            Trophy of Augustus overlooks Monaco. 35m Roman monument 
+                            built in 6 BC. Breathtaking view of the Principality.
+                        </p>
+                        <p class="stop-distance">Km 22 - 25 min</p>
+                    </div>
+                </div>
+                
+                <div class="stop-item">
+                    <div class="stop-content">
+                        <h3 class="stop-name">📍 Monaco - Monte-Carlo</h3>
+                        <p class="stop-desc">
+                            Arrival in the Principality. Casino, Prince's Palace, Port Hercule. 
+                            Our driver guides you to the best spots.
+                        </p>
+                        <p class="stop-distance">Km 35 - 35-45 min</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Options Section -->
+    <section class="options-section">
+        <div class="container">
+            <h2 class="section-title">Our Nice-Monaco Packages</h2>
+            
+            <div class="options-grid">
+                <div class="option-card">
+                    <h3 class="option-title">Express</h3>
+                    <p class="option-duration">⏱️ 3 hours</p>
+                    <ul class="option-features">
+                        <li>Direct transfer Nice-Monaco</li>
+                        <li>Photo stop in Èze</li>
+                        <li>Monte-Carlo tour</li>
+                        <li>Return to Nice</li>
+                        <li>Driver in your language</li>
+                    </ul>
+                    <a href="https://wa.me/33682267342?text=Hello,%20Express%20package%20Nice-Monaco%203h" class="option-cta">
+                        <span>💬</span>
+                        <span>Book Express</span>
+                    </a>
+                </div>
+                
+                <div class="option-card">
+                    <h3 class="option-title">Discovery</h3>
+                    <p class="option-duration">⏱️ 5 hours</p>
+                    <ul class="option-features">
+                        <li>All 3 Corniches</li>
+                        <li>Èze Village visit</li>
+                        <li>La Turbie & Trophy</li>
+                        <li>Complete Monaco</li>
+                        <li>Casino free time</li>
+                        <li>Multilingual guide</li>
+                    </ul>
+                    <a href="https://wa.me/33682267342?text=Hello,%20Discovery%20package%20Nice-Monaco%205h" class="option-cta">
+                        <span>💬</span>
+                        <span>Book Discovery</span>
+                    </a>
+                </div>
+                
+                <div class="option-card">
+                    <h3 class="option-title">Prestige</h3>
+                    <p class="option-duration">⏱️ 8 hours</p>
+                    <ul class="option-features">
+                        <li>Complete custom tour</li>
+                        <li>Villa Ephrussi Rothschild</li>
+                        <li>Gourmet lunch</li>
+                        <li>Monaco by night option</li>
+                        <li>Roquebrune-Cap-Martin</li>
+                        <li>VIP multilingual service</li>
+                    </ul>
+                    <a href="https://wa.me/33682267342?text=Hello,%20Prestige%20package%20Nice-Monaco%208h" class="option-cta">
+                        <span>💬</span>
+                        <span>Book Prestige</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience-section">
+        <div class="container">
+            <h2 class="section-title">The GALRIVIERA Experience</h2>
+            
+            <div class="experience-grid">
+                <div class="experience-item">
+                    <div class="experience-icon">🗣️</div>
+                    <h3 class="experience-title">Personal Guide</h3>
+                    <p class="experience-desc">
+                        Our team covers 5 languages. A driver-guide speaking your language 
+                        will be assigned for a personalized experience.
+                    </p>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="experience-icon">📸</div>
+                    <h3 class="experience-title">Photo Spots</h3>
+                    <p class="experience-desc">
+                        Our drivers know the best secret viewpoints 
+                        for perfect Instagram photos.
+                    </p>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="experience-icon">🎯</div>
+                    <h3 class="experience-title">Tailor-Made</h3>
+                    <p class="experience-desc">
+                        Adapt the tour to your wishes: more time in Monaco, 
+                        shopping, restaurant, casino... Everything is possible.
+                    </p>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="experience-icon">💎</div>
+                    <h3 class="experience-title">Premium Comfort</h3>
+                    <p class="experience-desc">
+                        High-end vehicles, fresh water, WiFi. Our team 
+                        ensures your comfort throughout the journey.
+                    </p>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="experience-icon">🕐</div>
+                    <h3 class="experience-title">Flexibility</h3>
+                    <p class="experience-desc">
+                        Departure at your chosen time. Pickup from your 
+                        hotel, villa or any point on the French Riviera.
+                    </p>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="experience-icon">🌟</div>
+                    <h3 class="experience-title">Local Expertise</h3>
+                    <p class="experience-desc">
+                        Our team of Israeli drivers lives on the French Riviera 
+                        and shares the best addresses.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking-section">
+        <div class="container">
+            <div class="booking-box">
+                <h2 class="booking-title">Book Your Nice-Monaco Tour</h2>
+                <p class="booking-desc">
+                    Discover the Riviera's most spectacular route with our experienced team of drivers. 
+                    Multilingual service available in 5 languages. A driver speaking your language will be assigned.
+                    <br><br>
+                    Departure from Nice, Cannes, Antibes or anywhere on the French Riviera. 
+                    Our team also ensures long-distance tours throughout France and Europe.
+                </p>
+                <a href="https://wa.me/33682267342?text=Hello,%20I%20want%20to%20book%20a%20custom%20Nice-Monaco%20tour" class="booking-cta">
+                    <span>💬</span>
+                    <span>Get My Personal Quote</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Nice-Monaco Tour FAQ</h2>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3 class="faq-question">What's the best route to Monaco?</h3>
+                    <p class="faq-answer">The Middle Corniche offers the best compromise between spectacular views and travel time. Our drivers adapt the route according to your preferences and traffic.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">How long should we spend in Monaco?</h3>
+                    <p class="faq-answer">Minimum 2-3 hours for the essentials: Casino, Palace, Port. A full day allows you to fully enjoy with lunch and in-depth visits.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">Does the tour include monument entries?</h3>
+                    <p class="faq-answer">Transport and guide are included. Entries (Èze Exotic Garden, Prince's Palace, etc.) are extra. We can arrange tickets.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">Can we stop for lunch?</h3>
+                    <p class="faq-answer">Of course! Our team knows the best addresses: from panoramic terraces to gourmet restaurants. Reservation possible upon request.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">Is the tour suitable for children?</h3>
+                    <p class="faq-answer">Absolutely! We adapt the tour: less walking, shorter stops, Monaco's Oceanographic Museum is very popular with children.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">Do you offer Nice-Monaco in the evening?</h3>
+                    <p class="faq-answer">Yes! Monaco by night is magical. Casino, restaurants, lounge bars. Our team ensures safe return at any hour.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">What languages is the tour available in?</h3>
+                    <p class="faq-answer">Our team covers 5 languages: Hebrew, English, French, Spanish and Russian. A driver speaking your language will be assigned for the tour.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">Can we combine with other destinations?</h3>
+                    <p class="faq-answer">Yes! Nice-Monaco-Menton, or Nice-Èze-Cap Ferrat-Monaco. Our team creates custom tours according to your wishes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="/en/airport-transfer.html">Airport Transfers</a></li>
+                    <li><a href="/en/services.html#tours">Tourist Tours</a></li>
+                    <li><a href="/en/nice-monaco.html">Nice-Monaco</a></li>
+                    <li><a href="/en/nice-cannes.html">Nice-Cannes</a></li>
+                    <li><a href="/en/services.html#long-distance">Long Distance</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Destinations</h4>
+                <ul>
+                    <li><a href="/en/services.html#nice">Nice</a></li>
+                    <li><a href="/en/services.html#monaco">Monaco</a></li>
+                    <li><a href="/en/services.html#cannes">Cannes</a></li>
+                    <li><a href="/en/services.html#antibes">Antibes</a></li>
+                    <li><a href="/en/services.html#saint-tropez">Saint-Tropez</a></li>
+                    <li><a href="/en/services.html#eze">Èze Village</a></li>
+                    <li><a href="/en/services.html#menton">Menton</a></li>
+                    <li><a href="/en/services.html#long-distance">Europe</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Information</h4>
+                <ul>
+                    <li><a href="/en/">About Us</a></li>
+                    <li><a href="/en/israeli-guide.html">Israeli Guide</a></li>
+                    <li><a href="/en/contact.html">Contact</a></li>
+                    <li><a href="https://wa.me/33682267342">Book Now</a></li>
+                    <li><a href="/en/">FAQ</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>GALRIVIERA</h4>
+                <ul>
+                    <li>ABSIG CONSULTING SASU</li>
+                    <li>120 Route des Macarons</li>
+                    <li>06560 Valbonne, France</li>
+                    <li>📱 +33 6 82 26 73 42</li>
+                    <li>✉️ absig2consulting@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>© 2025 GALRIVIERA - ABSIG CONSULTING SASU - All Rights Reserved</p>
+            <div class="footer-credits">
+                🤝 Official Partner of <a href="https://ecofundrive.com" rel="partner">EcoFundrive.com</a>
+                • ✨ Designed and Developed by <a href="https://misterprompt.fr" rel="author">MisterPrompt.fr</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/33682267342?text=Hello,%20interested%20in%20Nice-Monaco%20tour" class="whatsapp-float" aria-label="WhatsApp">
+        💬
+    </a>
+
+    <!-- Schema.org TouristTrip -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "TouristTrip",
+        "name": "Nice-Monaco VTC Premium Tour",
+        "description": "Nice-Monaco scenic tour with team of multilingual Israeli drivers. Discover the Corniche, Èze, Monte-Carlo.",
+        "touristType": "Sightseeing tourists",
+        "provider": {
+            "@type": "LocalBusiness",
+            "name": "GALRIVIERA VTC",
+            "description": "Premium VTC service with team of multilingual Israeli drivers",
+            "telephone": "+33682267342",
+            "email": "absig2consulting@gmail.com",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "120 Route des Macarons",
+                "addressLocality": "Valbonne",
+                "postalCode": "06560",
+                "addressCountry": "FR"
+            },
+            "availableLanguage": ["Hebrew", "English", "French", "Spanish", "Russian"]
+        },
+        "itinerary": [
+            {
+                "@type": "City",
+                "name": "Nice",
+                "description": "Start Promenade des Anglais"
+            },
+            {
+                "@type": "City",
+                "name": "Villefranche-sur-Mer",
+                "description": "Bay view"
+            },
+            {
+                "@type": "City",
+                "name": "Èze",
+                "description": "Medieval perched village"
+            },
+            {
+                "@type": "City",
+                "name": "La Turbie",
+                "description": "Trophy of Augustus"
+            },
+            {
+                "@type": "City",
+                "name": "Monaco",
+                "description": "Monte-Carlo, Casino, Palace"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "89"
+        },
+        "offers": {
+            "@type": "Offer",
+            "description": "Custom tour with quote in 5 minutes"
+        },
+        "partner": {
+            "@type": "Organization",
+            "name": "EcoFundrive",
+            "url": "https://ecofundrive.com"
+        },
+        "creator": {
+            "@type": "Organization",
+            "name": "MisterPrompt",
+            "url": "https://misterprompt.fr"
+        }
+    }
+    </script>
+
+    <script>
+        // Track WhatsApp clicks
+        document.querySelectorAll('a[href^="https://wa.me"]').forEach(link => {
+            link.addEventListener('click', function() {
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'click', {
+                        'event_category': 'WhatsApp',
+                        'event_label': 'Nice-Monaco EN - ' + this.textContent
+                    });
+                }
+            });
+        });
+    </script>
+<script src="../mobile-menu-fix.js"></script>
+</body>
+</html>

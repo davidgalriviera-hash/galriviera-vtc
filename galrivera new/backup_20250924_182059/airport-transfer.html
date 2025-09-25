@@ -1,0 +1,1154 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nice Airport Transfer VTC | GALRIVIERA - Team of Israeli Drivers</title>
+    <meta name="description" content="Airport transfer service with our team of Israeli drivers. Multilingual service in 5 languages, a driver speaking your language will be assigned. Nice, Monaco, Cannes 24/7.">
+    <meta name="keywords" content="Nice airport transfer, VTC airport shuttle, private driver Nice, Israeli team, multilingual service">
+    
+    <!-- Canonical and Alternates -->
+    <link rel="canonical" href="https://galriviera.ecofundrive.com/en/airport-transfer.html">
+    <link rel="alternate" hreflang="he" href="https://galriviera.ecofundrive.com/he/transfert-aeroport.html">
+    <link rel="alternate" hreflang="en" href="https://galriviera.ecofundrive.com/en/airport-transfer.html">
+    <link rel="alternate" hreflang="fr" href="https://galriviera.ecofundrive.com/fr/transfert-aeroport.html">
+    <link rel="alternate" hreflang="x-default" href="https://galriviera.ecofundrive.com/en/airport-transfer.html">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Nice Airport Transfer - GALRIVIERA VTC Premium">
+    <meta property="og:description" content="Airport transfer service with multilingual team. A driver speaking your language will be assigned.">
+    <meta property="og:url" content="https://galriviera.ecofundrive.com/en/airport-transfer.html">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- GA4 MANDATORY -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7E44TJX635"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-7E44TJX635');
+    </script>
+    
+    <style>
+        :root {
+            --noir-premium: #0A0A0A;
+            --noir-soft: #1a1a1a;
+            --or-luxe: #D4AF37;
+            --or-light: #F4E4BC;
+            --argent: #C0C0C0;
+            --blanc: #FFFFFF;
+            --whatsapp: #25D366;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            background: var(--noir-premium);
+            color: var(--blanc);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--noir-premium) 0%, var(--noir-soft) 100%);
+            padding: 20px 0;
+            border-bottom: 1px solid var(--or-luxe);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .logo {
+            font-size: clamp(24px, 4vw, 32px);
+            font-weight: 300;
+            letter-spacing: 3px;
+            background: linear-gradient(135deg, var(--or-luxe), var(--or-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-decoration: none;
+        }
+        
+        .nav-menu {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .nav-menu a {
+            color: var(--argent);
+            text-decoration: none;
+            transition: color 0.3s;
+            font-size: 15px;
+        }
+        
+        .nav-menu a:hover, .nav-menu a.active {
+            color: var(--or-luxe);
+        }
+        
+        .language-selector {
+            display: flex;
+            gap: 10px;
+            margin-left: 20px;
+        }
+        
+        .lang-btn {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: 1px solid var(--or-luxe);
+        }
+        
+        .lang-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
+        }
+        
+        .lang-btn.active {
+            background: var(--or-luxe);
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.6);
+        }
+        
+        .header-cta {
+            background: var(--whatsapp);
+            color: var(--blanc);
+            padding: 8px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.3s;
+            margin-left: 20px;
+        }
+        
+        .header-cta:hover {
+            transform: scale(1.05);
+        }
+        
+        /* Hero Section */
+        .hero-section {
+            background: linear-gradient(135deg, var(--noir-premium), var(--noir-soft));
+            padding: 100px 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero-section::before {
+            content: '✈️';
+            position: absolute;
+            font-size: 400px;
+            opacity: 0.03;
+            top: -100px;
+            right: -100px;
+            animation: float 20s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            50% { transform: translateY(-30px) rotate(10deg); }
+        }
+        
+        .hero-content {
+            max-width: 900px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .hero-section h1 {
+            font-size: clamp(36px, 5vw, 64px);
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, var(--or-luxe), var(--or-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 300;
+            line-height: 1.2;
+        }
+        
+        .hero-subtitle {
+            font-size: clamp(18px, 2.5vw, 24px);
+            color: var(--argent);
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+        
+        .hero-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--whatsapp);
+            color: var(--blanc);
+            padding: 15px 35px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            transition: all 0.3s;
+            box-shadow: 0 10px 30px rgba(37, 211, 102, 0.3);
+        }
+        
+        .hero-cta:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 40px rgba(37, 211, 102, 0.4);
+        }
+        
+        /* Services Airport */
+        .services-airport {
+            padding: 80px 20px;
+            background: var(--noir-premium);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: clamp(32px, 4vw, 48px);
+            margin-bottom: 50px;
+            background: linear-gradient(135deg, var(--or-luxe), var(--or-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+        
+        .service-card {
+            background: linear-gradient(135deg, var(--noir-soft), var(--noir-premium));
+            border: 2px solid var(--or-luxe);
+            border-radius: 15px;
+            padding: 40px;
+            text-align: center;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(212, 175, 55, 0.1) 0%, transparent 70%);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        
+        .service-card:hover::before {
+            opacity: 1;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(212, 175, 55, 0.3);
+        }
+        
+        .service-icon {
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+        
+        .service-title {
+            font-size: 24px;
+            color: var(--or-luxe);
+            margin-bottom: 15px;
+        }
+        
+        .service-desc {
+            color: var(--argent);
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+        
+        .service-features {
+            list-style: none;
+            margin: 20px 0;
+        }
+        
+        .service-features li {
+            color: var(--argent);
+            margin: 10px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+        
+        .service-features li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--or-luxe);
+            font-weight: bold;
+        }
+        
+        .service-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--whatsapp);
+            color: var(--blanc);
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s;
+            margin-top: 15px;
+        }
+        
+        .service-cta:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 25px rgba(37, 211, 102, 0.3);
+        }
+        
+        /* Process Section */
+        .process-section {
+            padding: 80px 20px;
+            background: linear-gradient(135deg, var(--noir-soft), var(--noir-premium));
+        }
+        
+        .process-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .process-step {
+            text-align: center;
+            padding: 30px 20px;
+            background: rgba(26, 26, 26, 0.5);
+            border-radius: 10px;
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            transition: all 0.3s;
+        }
+        
+        .process-step:hover {
+            border-color: var(--or-luxe);
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(212, 175, 55, 0.2);
+        }
+        
+        .step-number {
+            width: 60px;
+            height: 60px;
+            margin: 0 auto 20px;
+            background: linear-gradient(135deg, var(--or-luxe), var(--or-light));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--noir-premium);
+        }
+        
+        .step-title {
+            font-size: 20px;
+            color: var(--or-light);
+            margin-bottom: 15px;
+        }
+        
+        .step-desc {
+            color: var(--argent);
+            line-height: 1.6;
+        }
+        
+        /* Airports Section */
+        .airports-section {
+            padding: 80px 20px;
+            background: var(--noir-premium);
+        }
+        
+        .airports-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .airport-card {
+            background: linear-gradient(135deg, rgba(26, 26, 26, 0.8), var(--noir-premium));
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            border-radius: 10px;
+            padding: 30px;
+            transition: all 0.3s;
+        }
+        
+        .airport-card:hover {
+            border-color: var(--or-luxe);
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(212, 175, 55, 0.25);
+        }
+        
+        .airport-name {
+            font-size: 22px;
+            color: var(--or-luxe);
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .airport-info {
+            color: var(--argent);
+            margin: 10px 0;
+        }
+        
+        .airport-distance {
+            color: var(--or-light);
+            font-weight: bold;
+        }
+        
+        /* Benefits Section */
+        .benefits-section {
+            padding: 80px 20px;
+            background: linear-gradient(135deg, var(--noir-soft), var(--noir-premium));
+        }
+        
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-top: 50px;
+        }
+        
+        .benefit-item {
+            text-align: center;
+            padding: 30px 20px;
+            background: rgba(26, 26, 26, 0.3);
+            border-radius: 10px;
+            border: 1px solid transparent;
+            transition: all 0.3s;
+        }
+        
+        .benefit-item:hover {
+            border-color: var(--or-luxe);
+            background: rgba(26, 26, 26, 0.6);
+            transform: translateY(-5px);
+        }
+        
+        .benefit-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+            color: var(--or-luxe);
+        }
+        
+        .benefit-title {
+            font-size: 20px;
+            color: var(--or-light);
+            margin-bottom: 15px;
+        }
+        
+        .benefit-desc {
+            color: var(--argent);
+            line-height: 1.6;
+        }
+        
+        /* Pricing Section */
+        .pricing-section {
+            padding: 80px 20px;
+            background: var(--noir-premium);
+            text-align: center;
+        }
+        
+        .pricing-info {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 50px;
+            background: linear-gradient(135deg, var(--noir-soft), var(--noir-premium));
+            border: 2px solid var(--or-luxe);
+            border-radius: 20px;
+        }
+        
+        .pricing-title {
+            font-size: 32px;
+            color: var(--or-luxe);
+            margin-bottom: 20px;
+        }
+        
+        .pricing-desc {
+            color: var(--argent);
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+        
+        .pricing-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--whatsapp);
+            color: var(--blanc);
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            transition: all 0.3s;
+        }
+        
+        .pricing-cta:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 35px rgba(37, 211, 102, 0.4);
+        }
+        
+        /* FAQ Section */
+        .faq-section {
+            padding: 80px 20px;
+            background: linear-gradient(135deg, var(--noir-soft), var(--noir-premium));
+        }
+        
+        .faq-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .faq-item {
+            background: var(--noir-premium);
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            border-radius: 8px;
+            padding: 25px;
+            transition: all 0.3s;
+        }
+        
+        .faq-item:hover {
+            border-color: var(--or-luxe);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(212, 175, 55, 0.15);
+        }
+        
+        .faq-question {
+            color: var(--or-luxe);
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+        
+        .faq-answer {
+            color: var(--argent);
+            line-height: 1.8;
+        }
+        
+        /* Footer */
+        footer {
+            background: var(--noir-premium);
+            padding: 40px 20px 20px;
+            border-top: 2px solid var(--or-luxe);
+        }
+        
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 30px;
+        }
+        
+        .footer-section h4 {
+            color: var(--or-luxe);
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+        
+        .footer-section ul {
+            list-style: none;
+        }
+        
+        .footer-section li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-section a {
+            color: var(--argent);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-section a:hover {
+            color: var(--or-light);
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid #333;
+            color: var(--argent);
+        }
+        
+        .footer-credits {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+        
+        .footer-credits a {
+            color: var(--or-luxe);
+            text-decoration: none;
+        }
+        
+        /* WhatsApp Float */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: var(--whatsapp);
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 30px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+            z-index: 1000;
+            transition: all 0.3s;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            animation: none;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .nav-menu {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .services-grid, .faq-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .whatsapp-float {
+                bottom: 20px;
+                right: 20px;
+                width: 55px;
+                height: 55px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="/en/" class="logo">GALRIVIERA</a>
+            
+            <div class="nav-menu">
+                <a href="/en/">Home</a>
+                <a href="/en/services.html">Services</a>
+                <a href="/en/airport-transfer.html" class="active">Airport Transfer</a>
+                <a href="/en/nice-monaco.html">Nice-Monaco</a>
+                <a href="/en/nice-cannes.html">Nice-Cannes</a>
+                <a href="/en/israeli-guide.html">Israeli Guide</a>
+                <a href="/en/contact.html">Contact</a>
+                
+                <div class="language-selector">
+                    <a href="/he/transfert-aeroport.html" class="lang-btn" title="עברית">🇮🇱</a>
+                    <a href="/en/airport-transfer.html" class="lang-btn active" title="English">🇬🇧</a>
+                    <a href="/fr/transfert-aeroport.html" class="lang-btn" title="Français">🇫🇷</a>
+                </div>
+                
+                <a href="https://wa.me/33682267342?text=Hello,%20I%20need%20an%20airport%20transfer" class="header-cta">
+                    💬 WhatsApp
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Premium Airport Transfers<br>with Our Team of Israeli Drivers</h1>
+            <p class="hero-subtitle">
+                24/7 airport transfer service throughout the French Riviera. Our multilingual team covers 5 languages. 
+                A driver speaking your language will be assigned for your comfort.
+            </p>
+            <a href="https://wa.me/33682267342?text=Hello,%20I%20need%20a%20transfer%20from%20Nice%20airport" class="hero-cta">
+                <span>✈️</span>
+                <span>Book My Transfer</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Services Airport -->
+    <section class="services-airport">
+        <div class="container">
+            <h2 class="section-title">Our Airport Transfer Services</h2>
+            
+            <div class="services-grid">
+                <!-- Arrival -->
+                <div class="service-card">
+                    <div class="service-icon">🛬</div>
+                    <h3 class="service-title">Arrival Transfer</h3>
+                    <p class="service-desc">
+                        Personalized welcome on arrival. Our team monitors your flight in real-time. A driver from our multilingual team will be waiting with your name sign.
+                    </p>
+                    <ul class="service-features">
+                        <li>Real-time flight tracking</li>
+                        <li>30 minutes free waiting</li>
+                        <li>Luggage assistance included</li>
+                        <li>Driver speaking your language</li>
+                    </ul>
+                    <a href="https://wa.me/33682267342?text=Hello,%20arrival%20transfer%20Nice%20airport" class="service-cta">
+                        <span>💬</span>
+                        <span>Book Arrival</span>
+                    </a>
+                </div>
+
+                <!-- Departure -->
+                <div class="service-card">
+                    <div class="service-icon">🛫</div>
+                    <h3 class="service-title">Departure Transfer</h3>
+                    <p class="service-desc">
+                        Guaranteed punctuality for your flight. Our team of drivers ensures your transfer to the airport with perfect timing for relaxed check-in.
+                    </p>
+                    <ul class="service-features">
+                        <li>On-time pickup</li>
+                        <li>Optimized route</li>
+                        <li>SMS reminder day before</li>
+                        <li>Multilingual service available</li>
+                    </ul>
+                    <a href="https://wa.me/33682267342?text=Hello,%20departure%20transfer%20to%20airport" class="service-cta">
+                        <span>💬</span>
+                        <span>Book Departure</span>
+                    </a>
+                </div>
+
+                <!-- Round Trip -->
+                <div class="service-card">
+                    <div class="service-icon">🔄</div>
+                    <h3 class="service-title">Round Trip Package</h3>
+                    <p class="service-desc">
+                        Save with our round trip package. Our team ensures both trips with the same premium service level and a driver adapted to your language needs.
+                    </p>
+                    <ul class="service-features">
+                        <li>Preferential rate</li>
+                        <li>Same driver if desired</li>
+                        <li>Flexible dates/times</li>
+                        <li>Single payment</li>
+                    </ul>
+                    <a href="https://wa.me/33682267342?text=Hello,%20round%20trip%20airport%20package" class="service-cta">
+                        <span>💬</span>
+                        <span>Round Trip</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process-section">
+        <div class="container">
+            <h2 class="section-title">How It Works?</h2>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">Booking</h3>
+                    <p class="step-desc">Contact us via WhatsApp with your flight details. Specify your preferred language.</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">Confirmation</h3>
+                    <p class="step-desc">Receive your quote in 5 minutes and details of your assigned driver.</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">Flight Tracking</h3>
+                    <p class="step-desc">Our team monitors your flight and adjusts pickup time if necessary.</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3 class="step-title">Welcome</h3>
+                    <p class="step-desc">Your driver waits with sign. Service in your language guaranteed.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Airports Section -->
+    <section class="airports-section">
+        <div class="container">
+            <h2 class="section-title">Airports We Serve</h2>
+            
+            <div class="airports-grid">
+                <div class="airport-card">
+                    <h3 class="airport-name">
+                        <span>✈️</span> Nice Côte d'Azur Airport
+                    </h3>
+                    <p class="airport-info">Main regional hub</p>
+                    <p class="airport-distance">Transfer times:</p>
+                    <p class="airport-info">• Nice center: 15-20 min</p>
+                    <p class="airport-info">• Monaco: 30-35 min</p>
+                    <p class="airport-info">• Cannes: 35-40 min</p>
+                    <p class="airport-info">• Antibes: 25-30 min</p>
+                </div>
+                
+                <div class="airport-card">
+                    <h3 class="airport-name">
+                        <span>🚁</span> Monaco Heliport
+                    </h3>
+                    <p class="airport-info">VIP heliport transfers</p>
+                    <p class="airport-distance">Premium service:</p>
+                    <p class="airport-info">• Monte-Carlo: 5-10 min</p>
+                    <p class="airport-info">• Nice: 25-30 min</p>
+                    <p class="airport-info">• Private flight coordination</p>
+                    <p class="airport-info">• Express service</p>
+                </div>
+                
+                <div class="airport-card">
+                    <h3 class="airport-name">
+                        <span>🛩️</span> Cannes-Mandelieu Airport
+                    </h3>
+                    <p class="airport-info">Business aviation</p>
+                    <p class="airport-distance">Proximity:</p>
+                    <p class="airport-info">• Cannes: 10-15 min</p>
+                    <p class="airport-info">• Antibes: 20-25 min</p>
+                    <p class="airport-info">• Nice: 35-40 min</p>
+                    <p class="airport-info">• Saint-Tropez: 60 min</p>
+                </div>
+                
+                <div class="airport-card">
+                    <h3 class="airport-name">
+                        <span>✈️</span> Marseille-Provence Airport
+                    </h3>
+                    <p class="airport-info">Long distance transfers</p>
+                    <p class="airport-distance">Our team ensures:</p>
+                    <p class="airport-info">• Aix-en-Provence: 25 min</p>
+                    <p class="airport-info">• Marseille: 30 min</p>
+                    <p class="airport-info">• Nice: 2 hours</p>
+                    <p class="airport-info">• Service all France</p>
+                </div>
+                
+                <div class="airport-card">
+                    <h3 class="airport-name">
+                        <span>✈️</span> Toulon-Hyères
+                    </h3>
+                    <p class="airport-info">Var and inland</p>
+                    <p class="airport-distance">Destinations:</p>
+                    <p class="airport-info">• Saint-Tropez: 45 min</p>
+                    <p class="airport-info">• Toulon: 20 min</p>
+                    <p class="airport-info">• Cannes: 1h15</p>
+                    <p class="airport-info">• Nice: 1h30</p>
+                </div>
+                
+                <div class="airport-card">
+                    <h3 class="airport-name">
+                        <span>🌍</span> Europe Transfers
+                    </h3>
+                    <p class="airport-info">Long distance</p>
+                    <p class="airport-distance">Our team ensures:</p>
+                    <p class="airport-info">• Paris CDG/Orly</p>
+                    <p class="airport-info">• Lyon Saint-Exupéry</p>
+                    <p class="airport-info">• Geneva</p>
+                    <p class="airport-info">• Milan</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section">
+        <div class="container">
+            <h2 class="section-title">Why Choose Our Service?</h2>
+            
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <div class="benefit-icon">🌍</div>
+                    <h3 class="benefit-title">Multilingual Service</h3>
+                    <p class="benefit-desc">Our team speaks 5 languages. A driver speaking your language will be assigned according to your preferences.</p>
+                </div>
+                
+                <div class="benefit-item">
+                    <div class="benefit-icon">⏰</div>
+                    <h3 class="benefit-title">Guaranteed Punctuality</h3>
+                    <p class="benefit-desc">Our team of professional drivers ensures perfect punctuality for all your transfers.</p>
+                </div>
+                
+                <div class="benefit-item">
+                    <div class="benefit-icon">📱</div>
+                    <h3 class="benefit-title">Real-Time Tracking</h3>
+                    <p class="benefit-desc">Flight monitoring and automatic schedule adjustment. Instant WhatsApp communication.</p>
+                </div>
+                
+                <div class="benefit-item">
+                    <div class="benefit-icon">🎯</div>
+                    <h3 class="benefit-title">Transparent Pricing</h3>
+                    <p class="benefit-desc">Fixed price communicated in advance. No surprises, tolls and luggage included in rate.</p>
+                </div>
+                
+                <div class="benefit-item">
+                    <div class="benefit-icon">🚗</div>
+                    <h3 class="benefit-title">Premium Vehicles</h3>
+                    <p class="benefit-desc">Modern and comfortable fleet from 1 to 8 seats. Vehicles adapted to all needs.</p>
+                </div>
+                
+                <div class="benefit-item">
+                    <div class="benefit-icon">🛡️</div>
+                    <h3 class="benefit-title">Maximum Security</h3>
+                    <p class="benefit-desc">Experienced drivers from our Israeli team. Full insurance and compliance with standards.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section">
+        <div class="container">
+            <div class="pricing-info">
+                <h2 class="pricing-title">Simple and Transparent Pricing</h2>
+                <p class="pricing-desc">
+                    Our airport transfer rates are calculated based on distance and vehicle type. 
+                    Guaranteed fixed price, no hidden fees. Tolls and luggage included.
+                    <br><br>
+                    Personalized quote in 5 minutes via WhatsApp. Our multilingual team responds in your language.
+                </p>
+                <a href="https://wa.me/33682267342?text=Hello,%20I'd%20like%20a%20quote%20for%20airport%20transfer" class="pricing-cta">
+                    <span>💰</span>
+                    <span>Request My Quote</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Transfer FAQ</h2>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3 class="faq-question">How to book an airport transfer?</h3>
+                    <p class="faq-answer">Contact us via WhatsApp with your flight details. Our team sends you a quote in 5 minutes and assigns a driver speaking your language.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">What happens if my flight is delayed?</h3>
+                    <p class="faq-answer">Our team monitors your flight in real-time and automatically adjusts pickup time. No extra charge for flight delays.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">Where do we meet the driver?</h3>
+                    <p class="faq-answer">On arrival, your driver waits after customs with a sign with your name. For departures, pickup at your address.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">Are child seats available?</h3>
+                    <p class="faq-answer">Yes, baby seats and boosters available free on request. Specify children's age when booking.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">How much luggage can I have?</h3>
+                    <p class="faq-answer">Our standard vehicles accept 2 suitcases and 2 hand luggage per person. For more luggage, we adapt the vehicle.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">Do you offer long-distance transfers?</h3>
+                    <p class="faq-answer">Yes, our team ensures transfers to Paris, Lyon and all Europe. Multilingual service available for all long-distance trips.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">How does the multilingual service work?</h3>
+                    <p class="faq-answer">Our team covers 5 languages: Hebrew, English, French, Spanish and Russian. A driver speaking your language will be assigned according to your preferences.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">What payment methods?</h3>
+                    <p class="faq-answer">Payment at end of trip: credit card, cash, PayPal or transfer. No prepayment required.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="/en/airport-transfer.html">Airport Transfers</a></li>
+                    <li><a href="/en/services.html#tours">Tourist Tours</a></li>
+                    <li><a href="/en/services.html#events">Events</a></li>
+                    <li><a href="/en/services.html#long-distance">Long Distance</a></li>
+                    <li><a href="/en/services.html">All Services</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Destinations</h4>
+                <ul>
+                    <li><a href="/en/nice-monaco.html">Nice-Monaco</a></li>
+                    <li><a href="/en/nice-cannes.html">Nice-Cannes</a></li>
+                    <li><a href="/en/services.html#nice">Nice</a></li>
+                    <li><a href="/en/services.html#antibes">Antibes</a></li>
+                    <li><a href="/en/services.html#saint-tropez">Saint-Tropez</a></li>
+                    <li><a href="/en/services.html#marseille">Marseille</a></li>
+                    <li><a href="/en/services.html#menton">Menton</a></li>
+                    <li><a href="/en/services.html#long-distance">Europe</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Information</h4>
+                <ul>
+                    <li><a href="/en/">About Us</a></li>
+                    <li><a href="/en/israeli-guide.html">Israeli Guide</a></li>
+                    <li><a href="/en/contact.html">Contact</a></li>
+                    <li><a href="https://wa.me/33682267342">Book Now</a></li>
+                    <li><a href="/en/">FAQ</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>GALRIVIERA</h4>
+                <ul>
+                    <li>ABSIG CONSULTING SASU</li>
+                    <li>120 Route des Macarons</li>
+                    <li>06560 Valbonne, France</li>
+                    <li>📱 +33 6 82 26 73 42</li>
+                    <li>✉️ absig2consulting@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>© 2025 GALRIVIERA - ABSIG CONSULTING SASU - All Rights Reserved</p>
+            <div class="footer-credits">
+                🤝 Official Partner of <a href="https://ecofundrive.com" rel="partner">EcoFundrive.com</a>
+                • ✨ Designed and Developed by <a href="https://misterprompt.fr" rel="author">MisterPrompt.fr</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/33682267342?text=Hello,%20I%20need%20an%20airport%20transfer" class="whatsapp-float" aria-label="WhatsApp">
+        💬
+    </a>
+
+    <!-- Schema.org LocalBusiness -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Airport Transfer Service",
+        "provider": {
+            "@type": "LocalBusiness",
+            "name": "GALRIVIERA VTC",
+            "description": "Premium airport transfer service with team of multilingual Israeli drivers",
+            "telephone": "+33682267342",
+            "email": "absig2consulting@gmail.com",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "120 Route des Macarons",
+                "addressLocality": "Valbonne",
+                "postalCode": "06560",
+                "addressCountry": "FR"
+            },
+            "availableLanguage": ["Hebrew", "English", "French", "Spanish", "Russian"]
+        },
+        "areaServed": [
+            {
+                "@type": "Airport",
+                "name": "Nice Côte d'Azur Airport"
+            },
+            {
+                "@type": "Airport",
+                "name": "Cannes-Mandelieu Airport"
+            },
+            {
+                "@type": "Airport",
+                "name": "Monaco Heliport"
+            },
+            {
+                "@type": "Airport",
+                "name": "Marseille Provence Airport"
+            },
+            {
+                "@type": "Airport",
+                "name": "Toulon-Hyères Airport"
+            }
+        ],
+        "offers": {
+            "@type": "Offer",
+            "description": "Airport transfers with personalized quote in 5 minutes"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "156"
+        },
+        "partner": {
+            "@type": "Organization",
+            "name": "EcoFundrive",
+            "url": "https://ecofundrive.com"
+        },
+        "creator": {
+            "@type": "Organization",
+            "name": "MisterPrompt",
+            "url": "https://misterprompt.fr"
+        }
+    }
+    </script>
+
+    <script>
+        // Track WhatsApp clicks
+        document.querySelectorAll('a[href^="https://wa.me"]').forEach(link => {
+            link.addEventListener('click', function() {
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'click', {
+                        'event_category': 'WhatsApp',
+                        'event_label': 'Airport Transfer EN - ' + this.textContent
+                    });
+                }
+            });
+        });
+    </script>
+<script src="../mobile-menu-fix.js"></script>
+</body>
+</html>

@@ -1,0 +1,177 @@
+# ========================================
+# GALRIVIERA VTC - Security Policy
+# Site: galriviera.ecofundrive.com
+# Standard: RFC 9116 (security.txt)
+# Version: 6.1
+# Last Updated: 2025-01-20
+# ========================================
+
+# Primary security contact (required)
+Contact: mailto:security@galriviera.ecofundrive.com
+Contact: mailto:absig2consulting@gmail.com
+Contact: tel:+33-6-82-26-73-42
+Contact: https://wa.me/33682267342
+
+# Preferred languages for communication
+Preferred-Languages: en, fr, he
+
+# Expiration date (ISO 8601)
+Expires: 2026-01-20T00:00:00.000Z
+
+# Encryption key for secure communication
+Encryption: https://galriviera.ecofundrive.com/pgp-key.txt
+
+# Digital signature
+Canonical: https://galriviera.ecofundrive.com/.well-known/security.txt
+
+# Acknowledgments page for security researchers
+Acknowledgments: https://galriviera.ecofundrive.com/security/thanks.html
+
+# Security policy
+Policy: https://galriviera.ecofundrive.com/security/policy.html
+
+# Hiring security professionals
+Hiring: https://galriviera.ecofundrive.com/careers/security.html
+
+# CSAF provider metadata
+CSAF: https://galriviera.ecofundrive.com/.well-known/csaf/provider-metadata.json
+
+# ========================================
+# VULNERABILITY DISCLOSURE POLICY
+# ========================================
+
+# Scope of this policy:
+# - galriviera.ecofundrive.com (main domain)
+# - *.galriviera.ecofundrive.com (subdomains)
+# - Mobile applications (if any)
+# - APIs and web services
+
+# Response time commitment:
+# - Initial response: within 48 hours
+# - Status update: within 7 days
+# - Resolution target: within 30 days
+
+# ========================================
+# SECURITY HEADERS IMPLEMENTED
+# ========================================
+
+# The following security measures are in place:
+# - HTTPS enforced (HSTS with preload)
+# - Content Security Policy (CSP)
+# - X-Frame-Options: SAMEORIGIN
+# - X-Content-Type-Options: nosniff
+# - X-XSS-Protection: 1; mode=block
+# - Referrer-Policy: strict-origin-when-cross-origin
+# - Permissions-Policy configured
+
+# ========================================
+# DATA PROTECTION & PRIVACY
+# ========================================
+
+# GDPR Compliance:
+# - Data Protection Officer (DPO) available
+# - Privacy policy: https://galriviera.ecofundrive.com/fr/protection-donnees.html
+# - Data retention policies in place
+# - Right to erasure supported
+
+# ========================================
+# RESPONSIBLE DISCLOSURE
+# ========================================
+
+# We appreciate security researchers who:
+# 1. Provide detailed reports with reproduction steps
+# 2. Allow reasonable time for patching (30 days)
+# 3. Do not access or modify user data
+# 4. Do not perform destructive attacks
+# 5. Do not conduct social engineering
+
+# ========================================
+# OUT OF SCOPE
+# ========================================
+
+# The following are NOT in scope:
+# - Denial of Service (DoS/DDoS) attacks
+# - Social engineering of staff or users
+# - Physical security issues
+# - Third-party services (WhatsApp, Google Analytics)
+# - Issues already known or reported
+
+# ========================================
+# REPORTING GUIDELINES
+# ========================================
+
+# When reporting, please include:
+# - Type of vulnerability
+# - Affected URL/component
+# - Steps to reproduce
+# - Proof of concept (if applicable)
+# - Impact assessment
+# - Your contact information
+
+# ========================================
+# LEGAL NOTICE
+# ========================================
+
+# Company: ABSIG CONSULTING SASU
+# Trade name: GALRIVIERA
+# Registration: SIRET 914 022 736 00010
+# VAT: FR52 914 022 736
+# Address: 120 Route des Macarons, 06560 Valbonne, France
+# Website: https://galriviera.ecofundrive.com
+
+# ========================================
+# SECURITY STANDARDS COMPLIANCE
+# ========================================
+
+# Standards we follow:
+# - ISO/IEC 27001 (Information Security)
+# - PCI DSS (Payment processing)
+# - GDPR (EU 2016/679)
+# - French Data Protection Act
+# - OWASP Top 10 mitigation
+
+# ========================================
+# INCIDENT RESPONSE TEAM
+# ========================================
+
+# Primary: Security Team
+# Secondary: ABSIG CONSULTING Management
+# Emergency: +33 6 82 26 73 42 (WhatsApp available)
+
+# ========================================
+# BUG BOUNTY PROGRAM
+# ========================================
+
+# Currently: No active bug bounty program
+# Future consideration: Q2 2025
+# Contact us for responsible disclosure
+
+# ========================================
+# PARTNERSHIPS & COMPLIANCE
+# ========================================
+
+# Technology Partner: EcoFundrive.com
+# Development: MisterPrompt.fr
+# Hosting: Via EcoFundrive infrastructure
+# CDN: Cloudflare (if applicable)
+
+# ========================================
+# VERSION HISTORY
+# ========================================
+
+# 2025-01-20: Version 6.1 - Initial security.txt
+# Next review: 2025-07-20
+# Policy review: Every 6 months
+
+# ========================================
+# ADDITIONAL INFORMATION
+# ========================================
+
+# For general inquiries: contact@galriviera.ecofundrive.com
+# For business: absig2consulting@gmail.com
+# For support: https://wa.me/33682267342
+
+# This security.txt file is signed with our PGP key
+# Verify authenticity at: https://galriviera.ecofundrive.com/.well-known/security.txt.sig
+
+# EOF

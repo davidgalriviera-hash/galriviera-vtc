@@ -1,0 +1,503 @@
+﻿<!DOCTYPE html>
+<html lang="mul" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALRIVIERA - Premium VTC Service French Riviera | שירות VTC פרימיום | Service VTC Premium</title>
+    <meta name="description" content="Private driver French Riviera - Hebrew, English, French speaking. נהג פרטי בריביירה הצרפתית. Chauffeur privé Côte d'Azur.">
+    <meta name="keywords" content="VTC, French Riviera, private driver, נהג פרטי, chauffeur privé, Nice, Monaco, Cannes">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="GALRIVIERA - Premium VTC Service">
+    <meta property="og:description" content="Your Israeli driver on the French Riviera - Hebrew, English, French">
+    <meta property="og:url" content="https://galriviera.ecofundrive.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Canonical et alternates -->
+    <link rel="canonical" href="https://galriviera.ecofundrive.com/">
+    <link rel="alternate" hreflang="he" href="https://galriviera.ecofundrive.com/he/">
+    <link rel="alternate" hreflang="en" href="https://galriviera.ecofundrive.com/en/">
+    <link rel="alternate" hreflang="fr" href="https://galriviera.ecofundrive.com/fr/">
+    <link rel="alternate" hreflang="x-default" href="https://galriviera.ecofundrive.com/en/">
+    
+    <!-- GA4 OBLIGATOIRE -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7E44TJX635"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-7E44TJX635');
+    </script>
+    
+    <style>
+        :root {
+            --noir-premium: #0A0A0A;
+            --noir-soft: #1a1a1a;
+            --or-luxe: #D4AF37;
+            --or-light: #F4E4BC;
+            --blanc: #FFFFFF;
+            --whatsapp: #25D366;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--noir-premium);
+            color: var(--blanc);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        /* Gradient de fond luxueux */
+        body::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle at center, 
+                rgba(212, 175, 55, 0.03) 0%, 
+                transparent 50%);
+            animation: rotate 20s linear infinite;
+        }
+        
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .container {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            padding: 20px;
+            max-width: 600px;
+            width: 100%;
+        }
+        
+        /* Logo principal */
+        .logo {
+            font-size: clamp(2.5rem, 8vw, 4rem);
+            font-weight: 300;
+            letter-spacing: 8px;
+            color: var(--or-luxe);
+            margin-bottom: 40px;
+            animation: fadeInUp 0.8s ease-out;
+            text-shadow: 0 0 30px rgba(212, 175, 55, 0.3);
+        }
+        
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Barre de chargement */
+        .loader {
+            width: 200px;
+            height: 2px;
+            background: rgba(212, 175, 55, 0.1);
+            margin: 0 auto 40px;
+            border-radius: 2px;
+            overflow: hidden;
+            animation: fadeIn 0.5s ease-out 0.3s both;
+        }
+        
+        .loader-bar {
+            height: 100%;
+            background: linear-gradient(90deg, 
+                transparent,
+                var(--or-luxe),
+                transparent);
+            width: 40%;
+            animation: loading 1.5s ease-in-out infinite;
+        }
+        
+        @keyframes loading {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(350%); }
+        }
+        
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        
+        /* Sélecteur de langue */
+        .language-selector {
+            display: none;
+            animation: fadeInUp 0.5s ease-out;
+        }
+        
+        .language-selector.show {
+            display: block;
+        }
+        
+        .lang-button {
+            display: block;
+            width: 100%;
+            max-width: 400px;
+            margin: 15px auto;
+            padding: 20px 30px;
+            background: linear-gradient(135deg, 
+                rgba(212, 175, 55, 0.05), 
+                transparent);
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            color: var(--blanc);
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .lang-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, 
+                transparent, 
+                rgba(212, 175, 55, 0.1), 
+                transparent);
+            transition: left 0.5s ease;
+        }
+        
+        .lang-button:hover {
+            border-color: var(--or-luxe);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(212, 175, 55, 0.2);
+        }
+        
+        .lang-button:hover::before {
+            left: 100%;
+        }
+        
+        .lang-flag {
+            font-size: 1.5rem;
+            margin-right: 15px;
+            vertical-align: middle;
+        }
+        
+        .lang-name {
+            color: var(--or-luxe);
+            font-weight: 500;
+        }
+        
+        .lang-desc {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.9rem;
+            margin-left: 5px;
+        }
+        
+        /* Status text */
+        .status {
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 0.9rem;
+            letter-spacing: 2px;
+            margin-top: 20px;
+            animation: pulse 2s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 0.5; }
+            50% { opacity: 1; }
+        }
+        
+        /* Footer obligatoire */
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            padding: 15px;
+            background: linear-gradient(to top, 
+                var(--noir-premium), 
+                transparent);
+            color: rgba(255, 255, 255, 0.4);
+            font-size: 12px;
+            letter-spacing: 1px;
+            z-index: 10;
+        }
+        
+        .footer a {
+            color: var(--or-luxe);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .footer a:hover {
+            color: var(--or-light);
+        }
+        
+        /* Fallback pour no-js */
+        .no-js-fallback {
+            display: none;
+        }
+        
+        /* Mobile optimizations */
+        @media (max-width: 768px) {
+            .logo {
+                letter-spacing: 4px;
+            }
+            
+            .lang-button {
+                padding: 18px 20px;
+                font-size: 1rem;
+            }
+            
+            .footer {
+                font-size: 11px;
+                padding: 12px;
+            }
+        }
+        
+        /* Très petits écrans */
+        @media (max-width: 380px) {
+            .logo {
+                letter-spacing: 2px;
+            }
+            
+            .lang-desc {
+                display: block;
+                margin-left: 0;
+                margin-top: 5px;
+            }
+        }
+    </style>
+    
+    <!-- Fallback noscript -->
+    <noscript>
+        <style>
+            .loader { display: none !important; }
+            .status { display: none !important; }
+            .language-selector { display: block !important; }
+            .no-js-fallback { 
+                display: block;
+                color: rgba(255, 255, 255, 0.7);
+                margin-bottom: 30px;
+            }
+        </style>
+    </noscript>
+</head>
+<body>
+    <div class="container">
+        <h1 class="logo">GALRIVIERA</h1>
+        
+        <div class="loader" id="loader">
+            <div class="loader-bar"></div>
+        </div>
+        
+        <div class="status" id="status">DETECTING LANGUAGE...</div>
+        
+        <noscript>
+            <div class="no-js-fallback">
+                Please select your preferred language:
+            </div>
+        </noscript>
+        
+        <div class="language-selector" id="languageSelector">
+            <a href="/he/" class="lang-button" onclick="selectLanguage('he', 'manual')">
+                <span class="lang-flag">🇮🇱</span>
+                <span class="lang-name">עברית</span>
+                <span class="lang-desc">ישראלים</span>
+            </a>
+            
+            <a href="/en/" class="lang-button" onclick="selectLanguage('en', 'manual')">
+                <span class="lang-flag">🇬🇧</span>
+                <span class="lang-name">English</span>
+                <span class="lang-desc">International</span>
+            </a>
+            
+            <a href="/fr/" class="lang-button" onclick="selectLanguage('fr', 'manual')">
+                <span class="lang-flag">🇫🇷</span>
+                <span class="lang-name">Français</span>
+                <span class="lang-desc">France</span>
+            </a>
+        </div>
+    </div>
+    
+    <!-- Footer obligatoire avec crédits -->
+    <footer class="footer">
+        🤝 Partner of <a href="https://ecofundrive.com" rel="partner">EcoFundrive</a> 
+        • ✨ By <a href="https://misterprompt.fr" rel="author">MisterPrompt</a>
+    </footer>
+    
+    <script>
+        (function() {
+            // Fonctions utilitaires pour les cookies
+            function getCookie(name) {
+                const value = '; ' + document.cookie;
+                const parts = value.split('; ' + name + '=');
+                if (parts.length === 2) return parts.pop().split(';').shift();
+                return null;
+            }
+            
+            function setCookie(name, value, days) {
+                const date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                const expires = 'expires=' + date.toUTCString();
+                document.cookie = name + '=' + value + ';' + expires + ';path=/;SameSite=Lax';
+            }
+            
+            // Fonction de sélection et redirection
+            window.selectLanguage = function(lang, method) {
+                // Sauvegarder la préférence
+                setCookie('lang_pref', lang, 30);
+                
+                // Tracking GA4
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'language_selection', {
+                        'selected_language': lang,
+                        'detection_method': method
+                    });
+                }
+                
+                // Animation de sortie
+                document.body.style.opacity = '0';
+                document.body.style.transition = 'opacity 0.3s ease';
+                
+                // Redirection après animation
+                setTimeout(function() {
+                    window.location.href = '/' + lang + '/';
+                }, 300);
+                
+                return false;
+            };
+            
+            // Détection de la langue
+            function detectLanguage() {
+                // 1. Vérifier le cookie
+                const savedLang = getCookie('lang_pref');
+                if (savedLang) {
+                    selectLanguage(savedLang, 'cookie');
+                    return;
+                }
+                
+                // 2. Détecter la langue du navigateur
+                const browserLang = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
+                
+                // 3. Mapper la langue
+                let targetLang = 'en'; // Défaut
+                
+                if (browserLang.startsWith('he') || browserLang.startsWith('iw')) {
+                    targetLang = 'he';
+                } else if (browserLang.startsWith('fr')) {
+                    targetLang = 'fr';
+                } else if (browserLang.startsWith('en')) {
+                    targetLang = 'en';
+                }
+                
+                // 4. Redirection automatique après 1.5 secondes
+                setTimeout(function() {
+                    // Si toujours sur la page router
+                    if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
+                        selectLanguage(targetLang, 'auto');
+                    }
+                }, 1500);
+                
+                // 5. Afficher le sélecteur après 2 secondes si pas de redirection
+                setTimeout(function() {
+                    if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
+                        document.getElementById('loader').style.display = 'none';
+                        document.getElementById('status').style.display = 'none';
+                        document.getElementById('languageSelector').classList.add('show');
+                    }
+                }, 2000);
+            }
+            
+            // Lancer la détection au chargement
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', detectLanguage);
+            } else {
+                detectLanguage();
+            }
+            
+            // Gérer le bouton retour du navigateur
+            window.addEventListener('pageshow', function(event) {
+                if (event.persisted) {
+                    document.body.style.opacity = '1';
+                }
+            });
+        })();
+    </script>
+    
+    <!-- Schema.org multilingue -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "GALRIVIERA VTC",
+        "alternateName": "GALRIVIERA Premium Transport Service",
+        "url": "https://galriviera.ecofundrive.com",
+        "description": "Premium VTC service on the French Riviera with Hebrew, English and French speaking drivers",
+        "availableLanguage": [
+            {
+                "@type": "Language",
+                "name": "Hebrew",
+                "alternateName": "he"
+            },
+            {
+                "@type": "Language",
+                "name": "English",
+                "alternateName": "en"
+            },
+            {
+                "@type": "Language",
+                "name": "French",
+                "alternateName": "fr"
+            }
+        ],
+        "inLanguage": ["he", "en", "fr"],
+        "publisher": {
+            "@type": "Organization",
+            "name": "ABSIG CONSULTING SASU",
+            "legalName": "ABSIG CONSULTING SASU",
+            "url": "https://galriviera.ecofundrive.com",
+            "telephone": "+33682267342",
+            "email": "absig2consulting@gmail.com",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "120 Route des Macarons",
+                "addressLocality": "Valbonne",
+                "postalCode": "06560",
+                "addressCountry": "FR"
+            }
+        },
+        "partner": [
+            {
+                "@type": "Organization",
+                "name": "EcoFundrive",
+                "url": "https://ecofundrive.com"
+            }
+        ],
+        "creator": {
+            "@type": "Organization",
+            "name": "MisterPrompt",
+            "url": "https://misterprompt.fr"
+        }
+    }
+    </script>
+<script src="/js/mobile-menu-fix.js"></script>
+</body>
+</html>
