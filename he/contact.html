@@ -1,0 +1,894 @@
+﻿<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>צור קשר והזמנה VTC | GALRIVIERA - צוות נהגים ישראלים</title>
+    <meta name="description" content="צרו קשר עם צוות הנהגים הישראלי שלנו בוואטסאפ. הצעת מחיר ב-5 דקות, שירות רב-לשוני ב-5 שפות. נהג דובר השפה שלכם יוקצה לכם.">
+    <meta name="keywords" content="צור קשר VTC ניס, הזמנת נהג פרטי, וואטסאפ, צוות ישראלי, שירות רב-לשוני">
+    
+    <!-- Canonical and Alternates -->
+    <link rel="canonical" href="https://galriviera.ecofundrive.com/he/contact.html">
+    <link rel="alternate" hreflang="he" href="https://galriviera.ecofundrive.com/he/contact.html">
+    <link rel="alternate" hreflang="en" href="https://galriviera.ecofundrive.com/en/contact.html">
+    <link rel="alternate" hreflang="fr" href="https://galriviera.ecofundrive.com/fr/contact.html">
+    <link rel="alternate" hreflang="x-default" href="https://galriviera.ecofundrive.com/en/contact.html">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="צור קשר והזמנה - GALRIVIERA ריביירה צרפתית">
+    <meta property="og:description" content="צרו קשר עם הצוות הרב-לשוני שלנו בוואטסאפ. הצעת מחיר מהירה ושירות מותאם אישית.">
+    <meta property="og:url" content="https://galriviera.ecofundrive.com/he/contact.html">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="he_IL">
+    
+    <!-- GA4 MANDATORY -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7E44TJX635"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-7E44TJX635');
+    </script>
+    
+    <style>
+        :root {
+            --noir-premium: #0A0A0A;
+            --noir-soft: #1a1a1a;
+            --or-luxe: #D4AF37;
+            --or-light: #F4E4BC;
+            --argent: #C0C0C0;
+            --blanc: #FFFFFF;
+            --whatsapp: #25D366;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Arial Hebrew', 'Helvetica Neue', Arial, sans-serif;
+            background: var(--noir-premium);
+            color: var(--blanc);
+            line-height: 1.6;
+            overflow-x: hidden;
+            direction: rtl;
+        }
+        
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--noir-premium) 0%, var(--noir-soft) 100%);
+            padding: 20px 0;
+            border-bottom: 1px solid var(--or-luxe);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .logo {
+            font-size: clamp(24px, 4vw, 32px);
+            font-weight: 300;
+            letter-spacing: 3px;
+            background: linear-gradient(135deg, var(--or-luxe), var(--or-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-decoration: none;
+        }
+        
+        .nav-menu {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .nav-menu a {
+            color: var(--argent);
+            text-decoration: none;
+            transition: color 0.3s;
+            font-size: 15px;
+        }
+        
+        .nav-menu a:hover, .nav-menu a.active {
+            color: var(--or-luxe);
+        }
+        
+        .language-selector {
+            display: flex;
+            gap: 10px;
+            margin-right: 20px;
+        }
+        
+        .lang-btn {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: 1px solid var(--or-luxe);
+        }
+        
+        .lang-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
+        }
+        
+        .lang-btn.active {
+            background: var(--or-luxe);
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.6);
+        }
+        
+        .header-cta {
+            background: var(--whatsapp);
+            color: var(--blanc);
+            padding: 8px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.3s;
+            margin-right: 20px;
+        }
+        
+        .header-cta:hover {
+            transform: scale(1.05);
+        }
+        
+        /* Hero Section */
+        .page-hero {
+            background: linear-gradient(135deg, var(--noir-premium), var(--noir-soft));
+            padding: 80px 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .page-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 80% 50%, rgba(212, 175, 55, 0.1) 0%, transparent 50%);
+            animation: float 15s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0) scale(1); }
+            50% { transform: translateY(-20px) scale(1.05); }
+        }
+        
+        .hero-content {
+            max-width: 900px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .page-hero h1 {
+            font-size: clamp(32px, 5vw, 56px);
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, var(--or-luxe), var(--or-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 300;
+        }
+        
+        .hero-subtitle {
+            font-size: clamp(18px, 2.5vw, 22px);
+            color: var(--argent);
+            margin-bottom: 30px;
+        }
+        
+        /* Contact Section */
+        .contact-section {
+            padding: 80px 20px;
+            background: var(--noir-premium);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+        
+        /* Contact Card */
+        .contact-card {
+            background: linear-gradient(135deg, var(--noir-soft), var(--noir-premium));
+            border: 2px solid var(--or-luxe);
+            border-radius: 15px;
+            padding: 40px;
+            text-align: center;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .contact-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(212, 175, 55, 0.1) 0%, transparent 70%);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        
+        .contact-card:hover::before {
+            opacity: 1;
+        }
+        
+        .contact-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(212, 175, 55, 0.3);
+        }
+        
+        .contact-icon {
+            font-size: 64px;
+            margin-bottom: 20px;
+            display: block;
+        }
+        
+        .contact-title {
+            font-size: 28px;
+            color: var(--or-luxe);
+            margin-bottom: 15px;
+            font-weight: 400;
+        }
+        
+        .contact-info {
+            font-size: 20px;
+            color: var(--blanc);
+            margin-bottom: 20px;
+        }
+        
+        .contact-desc {
+            color: var(--argent);
+            margin-bottom: 25px;
+            line-height: 1.8;
+        }
+        
+        .contact-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--whatsapp);
+            color: var(--blanc);
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        
+        .contact-cta:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 30px rgba(37, 211, 102, 0.3);
+        }
+        
+        /* Info Section */
+        .info-section {
+            padding: 60px 20px;
+            background: linear-gradient(135deg, var(--noir-soft), var(--noir-premium));
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: clamp(28px, 4vw, 42px);
+            margin-bottom: 50px;
+            background: linear-gradient(135deg, var(--or-luxe), var(--or-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        
+        .info-item {
+            text-align: center;
+            padding: 30px 20px;
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            border-radius: 10px;
+            background: rgba(26, 26, 26, 0.5);
+            transition: all 0.3s;
+        }
+        
+        .info-item:hover {
+            border-color: var(--or-luxe);
+            transform: translateY(-5px);
+            background: rgba(26, 26, 26, 0.8);
+        }
+        
+        .info-icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+            color: var(--or-luxe);
+        }
+        
+        .info-title {
+            font-size: 20px;
+            color: var(--or-light);
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+        
+        .info-text {
+            color: var(--argent);
+            line-height: 1.6;
+        }
+        
+        /* Process Section */
+        .process-section {
+            padding: 80px 20px;
+            background: var(--noir-premium);
+        }
+        
+        .process-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .step {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, rgba(26, 26, 26, 0.5), transparent);
+            border-radius: 10px;
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            transition: all 0.3s;
+        }
+        
+        .step:hover {
+            transform: translateY(-5px);
+            border-color: var(--or-luxe);
+            box-shadow: 0 15px 40px rgba(212, 175, 55, 0.2);
+        }
+        
+        .step-number {
+            width: 60px;
+            height: 60px;
+            margin: 0 auto 20px;
+            background: linear-gradient(135deg, var(--or-luxe), var(--or-light));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--noir-premium);
+        }
+        
+        .step-title {
+            font-size: 20px;
+            color: var(--or-light);
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+        
+        .step-desc {
+            color: var(--argent);
+            line-height: 1.6;
+        }
+        
+        /* FAQ Section */
+        .faq-section {
+            padding: 80px 20px;
+            background: linear-gradient(135deg, var(--noir-soft), var(--noir-premium));
+        }
+        
+        .faq-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .faq-item {
+            background: var(--noir-premium);
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            border-radius: 8px;
+            padding: 25px;
+            transition: all 0.3s;
+        }
+        
+        .faq-item:hover {
+            border-color: var(--or-luxe);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(212, 175, 55, 0.15);
+        }
+        
+        .faq-question {
+            color: var(--or-luxe);
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+        
+        .faq-answer {
+            color: var(--argent);
+            line-height: 1.8;
+        }
+        
+        /* Company Info */
+        .company-section {
+            padding: 60px 20px;
+            background: var(--noir-premium);
+            text-align: center;
+        }
+        
+        .company-info {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+            border: 2px solid var(--or-luxe);
+            border-radius: 15px;
+            background: linear-gradient(135deg, var(--noir-soft), var(--noir-premium));
+        }
+        
+        .company-name {
+            font-size: 24px;
+            color: var(--or-luxe);
+            margin-bottom: 20px;
+        }
+        
+        .company-detail {
+            color: var(--argent);
+            margin: 10px 0;
+            font-size: 16px;
+        }
+        
+        /* Footer */
+        footer {
+            background: var(--noir-premium);
+            padding: 40px 20px 20px;
+            border-top: 2px solid var(--or-luxe);
+        }
+        
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 30px;
+        }
+        
+        .footer-section h4 {
+            color: var(--or-luxe);
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+        
+        .footer-section ul {
+            list-style: none;
+        }
+        
+        .footer-section li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-section a {
+            color: var(--argent);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-section a:hover {
+            color: var(--or-light);
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid #333;
+            color: var(--argent);
+        }
+        
+        .footer-credits {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+        
+        .footer-credits a {
+            color: var(--or-luxe);
+            text-decoration: none;
+        }
+        
+        /* WhatsApp Float */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            left: 30px;
+            background: var(--whatsapp);
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 30px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+            z-index: 1000;
+            transition: all 0.3s;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            animation: none;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .nav-menu {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .contact-grid, .faq-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .whatsapp-float {
+                bottom: 20px;
+                left: 20px;
+                width: 55px;
+                height: 55px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="/he/" class="logo">GALRIVIERA</a>
+            
+            <div class="nav-menu">
+                <a href="/he/">בית</a>
+                <a href="/he/services.html">שירותים</a>
+                <a href="/he/transfert-aeroport.html">העברה משדה תעופה</a>
+                <a href="/he/nice-monaco.html">ניס-מונקו</a>
+                <a href="/he/nice-cannes.html">ניס-קאן</a>
+                <a href="/he/guide-israelien.html">מדריך ישראלי</a>
+                <a href="/he/contact.html" class="active">צור קשר</a>
+                
+                <div class="language-selector">
+                    <a href="/he/contact.html" class="lang-btn active" title="עברית">🇮🇱</a>
+                    <a href="/en/contact.html" class="lang-btn" title="English">🇬🇧</a>
+                    <a href="/fr/contact.html" class="lang-btn" title="Français">🇫🇷</a>
+                </div>
+                
+                <a href="https://wa.me/33682267342?text=שלום,%20רוצה%20להזמין%20העברה" class="header-cta">
+                    💬 וואטסאפ
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="hero-content">
+            <h1>צרו קשר עם הצוות שלנו</h1>
+            <p class="hero-subtitle">צוות הנהגים הישראלי שלנו זמין 7 ימים בשבוע. שירות רב-לשוני עם נהג דובר השפה שלכם שיוקצה לנוחיותכם.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- WhatsApp Contact -->
+                <div class="contact-card">
+                    <span class="contact-icon">💬</span>
+                    <h2 class="contact-title">וואטסאפ ישיר</h2>
+                    <p class="contact-info">+33 6 82 26 73 42</p>
+                    <p class="contact-desc">
+                        תגובה מהירה תוך 5 דקות. הצוות שלנו מכסה 5 שפות: עברית, אנגלית, צרפתית, ספרדית ורוסית. נהג דובר השפה שלכם יוקצה לכם.
+                    </p>
+                    <a href="https://wa.me/33682267342?text=שלום,%20רוצה%20להזמין%20העברה%20VTC" class="contact-cta">
+                        <span>💬</span>
+                        <span>צור קשר</span>
+                    </a>
+                </div>
+
+                <!-- Business Info -->
+                <div class="contact-card">
+                    <span class="contact-icon">🏢</span>
+                    <h2 class="contact-title">פרטי החברה</h2>
+                    <p class="contact-info">ABSIG CONSULTING SASU</p>
+                    <p class="contact-desc">
+                        120 Route des Macarons<br>
+                        06560 Valbonne<br>
+                        France<br><br>
+                        דוא"ל: absig2consulting@gmail.com
+                    </p>
+                    <a href="https://wa.me/33682267342?text=שלום,%20יש%20לי%20שאלה%20עסקית" class="contact-cta">
+                        <span>📧</span>
+                        <span>שאלה עסקית</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section class="info-section">
+        <div class="container">
+            <h2 class="section-title">מידע שימושי</h2>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-icon">⏰</span>
+                    <h3 class="info-title">זמינות</h3>
+                    <p class="info-text">שירות 7 ימים בשבוע<br>הזמנה מינימום 4 שעות מראש<br>מקרי חירום אפשריים לפי בקשה</p>
+                </div>
+                
+                <div class="info-item">
+                    <span class="info-icon">💳</span>
+                    <h3 class="info-title">תשלום</h3>
+                    <p class="info-text">כרטיס אשראי<br>מזומן<br>PayPal<br>העברה בנקאית</p>
+                </div>
+                
+                <div class="info-item">
+                    <span class="info-icon">🌍</span>
+                    <h3 class="info-title">שפות</h3>
+                    <p class="info-text">הצוות שלנו מכסה<br>5 שפות<br>נהג מותאם לצרכים שלכם</p>
+                </div>
+                
+                <div class="info-item">
+                    <span class="info-icon">❌</span>
+                    <h3 class="info-title">ביטול</h3>
+                    <p class="info-text">חינם עד<br>שעתיים לפני<br>ללא עלויות נוספות</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process-section">
+        <div class="container">
+            <h2 class="section-title">איך מזמינים?</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">צרו קשר</h3>
+                    <p class="step-desc">שלחו לנו הודעת וואטסאפ עם התאריכים, השעות והיעדים שלכם</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">הצעת מחיר מהירה</h3>
+                    <p class="step-desc">קבלו הצעת מחיר מותאמת אישית תוך 5 דקות מקסימום</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">אישור</h3>
+                    <p class="step-desc">אשרו את ההזמנה שלכם וקבלו את כל פרטי הנסיעה</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3 class="step-title">הנהג שלכם</h3>
+                    <p class="step-desc">נהג דובר השפה שלכם יוקצה לכם ביום המיועד</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="conditions">
+        <div class="container">
+            <h2 class="section-title">שאלות נפוצות על יצירת קשר</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3 class="faq-question">מה זמן ההזמנה המינימלי?</h3>
+                    <p class="faq-answer">מינימום 4 שעות מראש. למקרי חירום, צרו קשר ישירות בוואטסאפ ונעשה כמיטב יכולתנו.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">איך מקבלים הצעת מחיר?</h3>
+                    <p class="faq-answer">פשוט שלחו לנו הודעת וואטסאפ עם פרטי הנסיעה שלכם. הצוות שלנו יענה עם הצעת מחיר מותאמת אישית ב-5 דקות.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">אפשר לשנות הזמנה?</h3>
+                    <p class="faq-answer">כן, שינויים אפשריים עד שעתיים לפני היציאה. צרו קשר בוואטסאפ לכל שינוי.</p>
+                </div>
+                
+                <div class="faq-item" id="payment">
+                    <h3 class="faq-question">מתי משלמים?</h3>
+                    <p class="faq-answer">התשלום מתבצע בסוף הנסיעה. אנחנו מקבלים כרטיס אשראי, מזומן, PayPal והעברה בנקאית.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">איך בוחרים שפה?</h3>
+                    <p class="faq-answer">ציינו את השפה המועדפת עליכם בעת ההזמנה. נהג דובר השפה שלכם יוקצה לכם מתוך הצוות הרב-לשוני שלנו.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">אזור כיסוי?</h3>
+                    <p class="faq-answer">כל הריביירה הצרפתית פלוס העברות למרחקים ארוכים לפריז, ליון וכל אירופה. הצוות שלנו מבטיח את כל הנסיעות.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Section -->
+    <section class="company-section">
+        <div class="container">
+            <div class="company-info">
+                <h2 class="company-name">ABSIG CONSULTING SASU</h2>
+                <p class="company-detail">SIRET: 914 022 736 00010</p>
+                <p class="company-detail">TVA: FR52 914 022 736</p>
+                <p class="company-detail">כתובת: 120 Route des Macarons, 06560 Valbonne</p>
+                <p class="company-detail">שירות VTC פרימיום בריביירה הצרפתית</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>שירותים</h4>
+                <ul>
+                    <li><a href="/he/transfert-aeroport.html">העברות משדה התעופה</a></li>
+                    <li><a href="/he/services.html#tours">סיורי תיירות</a></li>
+                    <li><a href="/he/services.html#events">אירועים</a></li>
+                    <li><a href="/he/services.html#long-distance">מרחקים ארוכים</a></li>
+                    <li><a href="/he/services.html">כל השירותים</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>יעדים</h4>
+                <ul>
+                    <li><a href="/he/nice-monaco.html">ניס-מונקו</a></li>
+                    <li><a href="/he/nice-cannes.html">ניס-קאן</a></li>
+                    <li><a href="/he/services.html#nice">ניס</a></li>
+                    <li><a href="/he/services.html#antibes">אנטיב</a></li>
+                    <li><a href="/he/services.html#saint-tropez">סן טרופז</a></li>
+                    <li><a href="/he/services.html#marseille">מרסיי</a></li>
+                    <li><a href="/he/services.html#menton">מנטון</a></li>
+                    <li><a href="/he/services.html#long-distance">אירופה</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>מידע</h4>
+                <ul>
+                    <li><a href="/he/">אודותינו</a></li>
+                    <li><a href="/he/guide-israelien.html">מדריך ישראלי</a></li>
+                    <li><a href="/he/contact.html">צור קשר</a></li>
+                    <li><a href="https://wa.me/33682267342">הזמן עכשיו</a></li>
+                    <li><a href="/he/">שאלות נפוצות</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>מידע משפטי</h4>
+                <ul>
+                    <li>ABSIG CONSULTING SASU</li>
+                    <li>120 Route des Macarons</li>
+                    <li>06560 Valbonne, France</li>
+                    <li>📱 +33 6 82 26 73 42</li>
+                    <li>✉️ absig2consulting@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>© 2025 GALRIVIERA - ABSIG CONSULTING SASU - כל הזכויות שמורות</p>
+            <div class="footer-credits">
+                🤝 שותף רשמי של <a href="https://ecofundrive.com" rel="partner">EcoFundrive.com</a>
+                • ✨ עוצב ופותח על ידי <a href="https://misterprompt.fr" rel="author">MisterPrompt.fr</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/33682267342?text=שלום,%20רוצה%20להזמין%20נסיעה" class="whatsapp-float" aria-label="WhatsApp">
+        💬
+    </a>
+
+    <!-- Schema.org ContactPage -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ContactPage",
+        "mainEntity": {
+            "@type": "LocalBusiness",
+            "name": "GALRIVIERA VTC",
+            "description": "שירות VTC פרימיום עם צוות נהגים ישראלים רב-לשוני",
+            "telephone": "+33682267342",
+            "email": "absig2consulting@gmail.com",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "120 Route des Macarons",
+                "addressLocality": "Valbonne",
+                "postalCode": "06560",
+                "addressCountry": "FR"
+            },
+            "openingHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+                "opens": "00:00",
+                "closes": "23:59"
+            },
+            "availableLanguage": ["Hebrew", "English", "French", "Spanish", "Russian"],
+            "priceRange": "הצעת מחיר מותאמת אישית",
+            "paymentAccepted": ["Cash", "Credit Card", "PayPal", "Bank Transfer"],
+            "areaServed": [
+                "Nice", "Monaco", "Cannes", "Antibes", "Saint-Tropez",
+                "Menton", "Marseille", "Paris", "Lyon", "Europe"
+            ],
+            "partner": {
+                "@type": "Organization",
+                "name": "EcoFundrive",
+                "url": "https://ecofundrive.com"
+            },
+            "creator": {
+                "@type": "Organization",
+                "name": "MisterPrompt",
+                "url": "https://misterprompt.fr"
+            }
+        }
+    }
+    </script>
+
+    <script>
+        // Track WhatsApp clicks
+        document.querySelectorAll('a[href^="https://wa.me"]').forEach(link => {
+            link.addEventListener('click', function() {
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'click', {
+                        'event_category': 'WhatsApp',
+                        'event_label': 'Contact Page HE - ' + this.textContent
+                    });
+                }
+            });
+        });
+    </script>
+
+
+<!-- GALRIVIERA Menu Mobile -->
+<script src="/js/mobile-menu-fix.js"></script>
+</body>
+</html>

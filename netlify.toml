@@ -1,0 +1,49 @@
+# Configuration Netlify pour GALRIVIERA VTC
+# Fichier: netlify.toml
+
+[build]
+  # Pas de build process pour site statique
+  command = "echo 'GALRIVIERA VTC - Site statique prêt'"
+  publish = "."
+
+# Configuration Edge Functions
+[[edge_functions]]
+  function = "gtm-inject"
+  path = "/*"
+
+# Headers de sécurité et performance
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; img-src 'self' data: https://www.googletagmanager.com https://www.google-analytics.com; frame-src https://www.googletagmanager.com; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com"
+
+# Redirections et optimisations
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+
+[[headers]]
+  for = "/*.css"  
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+
+# Gestion des erreurs
+[[redirects]]
+  from = "/404"
+  to = "/index.html"
+  status = 404
+
+# Variables d'environnement (optionnel)
+[build.environment]
+  GTM_ID = "GTM-MVQ8QKS7"
+  SITE_NAME = "GALRIVIERA VTC"

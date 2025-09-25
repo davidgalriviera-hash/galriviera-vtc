@@ -1,0 +1,148 @@
+# ========================================
+# GALRIVIERA VTC - Robots.txt V6.1
+# Site: galriviera.ecofundrive.com
+# Updated: January 2025
+# ========================================
+
+# Default - All search engines
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /*.pdf$
+Crawl-delay: 1
+
+# Google
+User-agent: Googlebot
+Allow: /
+Disallow: /admin/
+Crawl-delay: 0
+
+# Google Images
+User-agent: Googlebot-Image
+Allow: /
+Disallow: /admin/
+
+# Google Mobile
+User-agent: Googlebot-Mobile
+Allow: /
+Crawl-delay: 0
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Disallow: /admin/
+Crawl-delay: 1
+
+# Yandex (Russian traffic)
+User-agent: Yandex
+Allow: /
+Disallow: /admin/
+Crawl-delay: 2
+
+# Baidu
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+# Facebook
+User-agent: facebookexternalhit
+Allow: /
+
+# Twitter
+User-agent: Twitterbot
+Allow: /
+
+# WhatsApp
+User-agent: WhatsApp
+Allow: /
+
+# LinkedIn
+User-agent: LinkedInBot
+Allow: /
+
+# Apple
+User-agent: Applebot
+Allow: /
+Crawl-delay: 1
+
+# Semrush (SEO tool)
+User-agent: SemrushBot
+Allow: /
+Crawl-delay: 3
+
+# Ahrefs (SEO tool)
+User-agent: AhrefsBot
+Allow: /
+Crawl-delay: 3
+
+# Moz (SEO tool)
+User-agent: rogerbot
+Allow: /
+Crawl-delay: 3
+
+# Block bad bots
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SeznamBot
+Disallow: /
+
+User-agent: dotbot
+Disallow: /
+
+User-agent: GarlikCrawler
+Disallow: /
+
+User-agent: Cliqzbot
+Disallow: /
+
+# AI Crawlers Control (2025 SEO Update)
+# OpenAI GPT
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 2
+
+# Google Bard/Gemini
+User-agent: Google-Extended
+Allow: /
+Crawl-delay: 2
+
+# Anthropic Claude
+User-agent: anthropic-ai
+Allow: /
+Crawl-delay: 2
+
+User-agent: ClaudeBot
+Allow: /
+Crawl-delay: 2
+
+# Microsoft Bing AI
+User-agent: bingbot-ai
+Allow: /
+Crawl-delay: 2
+
+# Block content scrapers
+User-agent: CCBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: PerplexityBot
+Allow: /
+Crawl-delay: 3
+
+# Sitemap location
+Sitemap: https://galriviera.ecofundrive.com/sitemap.xml
+
+# Language-specific sitemaps
+Sitemap: https://galriviera.ecofundrive.com/sitemap-he.xml
+Sitemap: https://galriviera.ecofundrive.com/sitemap-en.xml
+Sitemap: https://galriviera.ecofundrive.com/sitemap-fr.xml
